@@ -1,0 +1,2840 @@
+[
+  {
+    "_id": {
+      "$oid": "000000000000000000000001"
+    },
+    "researcher_id": "RES_001",
+    "name": "Dr. Ana Fernández",
+    "email": "ana.fernández@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-001",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 16,
+          "total_citations": 3100,
+          "publications_count": 83
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000000d"
+      },
+      {
+        "$oid": "000000000000000000000010"
+      },
+      {
+        "$oid": "000000000000000000000014"
+      },
+      {
+        "$oid": "00000000000000000000001b"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000002"
+    },
+    "researcher_id": "RES_002",
+    "name": "Dr. Sofía Díaz",
+    "email": "sofía.díaz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-002",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 25,
+          "total_citations": 1986,
+          "publications_count": 90
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000010"
+      },
+      {
+        "$oid": "00000000000000000000001f"
+      },
+      {
+        "$oid": "00000000000000000000002b"
+      },
+      {
+        "$oid": "00000000000000000000002f"
+      },
+      {
+        "$oid": "000000000000000000000030"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000003"
+    },
+    "researcher_id": "RES_003",
+    "name": "Dr. Elena Sánchez",
+    "email": "elena.sánchez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-003",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 19,
+          "total_citations": 1755,
+          "publications_count": 37
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000005"
+      },
+      {
+        "$oid": "000000000000000000000008"
+      },
+      {
+        "$oid": "000000000000000000000018"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000004"
+    },
+    "researcher_id": "RES_004",
+    "name": "Dr. Carlos Sánchez",
+    "email": "carlos.sánchez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-004",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 25,
+          "total_citations": 4316,
+          "publications_count": 22
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000021"
+      },
+      {
+        "$oid": "000000000000000000000029"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000005"
+    },
+    "researcher_id": "RES_005",
+    "name": "Dr. Elena García",
+    "email": "elena.garcía@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-005",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 34,
+          "total_citations": 4273,
+          "publications_count": 62
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000000a"
+      },
+      {
+        "$oid": "00000000000000000000000c"
+      },
+      {
+        "$oid": "000000000000000000000021"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000006"
+    },
+    "researcher_id": "RES_006",
+    "name": "Dr. Elena Fernández",
+    "email": "elena.fernández@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-006",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 29,
+          "total_citations": 4290,
+          "publications_count": 28
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000001"
+      },
+      {
+        "$oid": "00000000000000000000000d"
+      },
+      {
+        "$oid": "000000000000000000000022"
+      },
+      {
+        "$oid": "00000000000000000000002b"
+      },
+      {
+        "$oid": "000000000000000000000030"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000007"
+    },
+    "researcher_id": "RES_007",
+    "name": "Dr. Miguel Díaz",
+    "email": "miguel.díaz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-007",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 15,
+          "total_citations": 4832,
+          "publications_count": 49
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000024"
+      },
+      {
+        "$oid": "00000000000000000000002b"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000008"
+    },
+    "researcher_id": "RES_008",
+    "name": "Dr. Ana Álvarez",
+    "email": "ana.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-008",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 27,
+          "total_citations": 552,
+          "publications_count": 66
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000009"
+      },
+      {
+        "$oid": "00000000000000000000002f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000009"
+    },
+    "researcher_id": "RES_009",
+    "name": "Dr. Pedro López",
+    "email": "pedro.lópez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-009",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 26,
+          "total_citations": 2066,
+          "publications_count": 43
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000011"
+      },
+      {
+        "$oid": "00000000000000000000002a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000a"
+    },
+    "researcher_id": "RES_010",
+    "name": "Dr. Carlos García",
+    "email": "carlos.garcía@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-010",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 39,
+          "total_citations": 4235,
+          "publications_count": 34
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000009"
+      },
+      {
+        "$oid": "00000000000000000000002d"
+      },
+      {
+        "$oid": "000000000000000000000030"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000b"
+    },
+    "researcher_id": "RES_011",
+    "name": "Dr. María Álvarez",
+    "email": "maría.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-011",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 19,
+          "total_citations": 2518,
+          "publications_count": 48
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000010"
+      },
+      {
+        "$oid": "00000000000000000000001f"
+      },
+      {
+        "$oid": "000000000000000000000027"
+      },
+      {
+        "$oid": "000000000000000000000031"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000c"
+    },
+    "researcher_id": "RES_012",
+    "name": "Dr. Juan Álvarez",
+    "email": "juan.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-012",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 24,
+          "total_citations": 2804,
+          "publications_count": 34
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000001d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000d"
+    },
+    "researcher_id": "RES_013",
+    "name": "Dr. Elena López",
+    "email": "elena.lópez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-013",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 15,
+          "total_citations": 1936,
+          "publications_count": 81
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000001"
+      },
+      {
+        "$oid": "000000000000000000000007"
+      },
+      {
+        "$oid": "000000000000000000000024"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000e"
+    },
+    "researcher_id": "RES_014",
+    "name": "Dr. Elena Martínez",
+    "email": "elena.martínez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-014",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 40,
+          "total_citations": 4576,
+          "publications_count": 65
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000008"
+      },
+      {
+        "$oid": "00000000000000000000000a"
+      },
+      {
+        "$oid": "00000000000000000000000c"
+      },
+      {
+        "$oid": "00000000000000000000001a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000000f"
+    },
+    "researcher_id": "RES_015",
+    "name": "Dr. Miguel Fernández",
+    "email": "miguel.fernández@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-015",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 38,
+          "total_citations": 3247,
+          "publications_count": 62
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000002"
+      },
+      {
+        "$oid": "00000000000000000000000a"
+      },
+      {
+        "$oid": "000000000000000000000010"
+      },
+      {
+        "$oid": "000000000000000000000011"
+      },
+      {
+        "$oid": "000000000000000000000014"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000010"
+    },
+    "researcher_id": "RES_016",
+    "name": "Dr. Ana Fernández",
+    "email": "ana.fernández@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-016",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 33,
+          "total_citations": 1199,
+          "publications_count": 56
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000001f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000011"
+    },
+    "researcher_id": "RES_017",
+    "name": "Dr. Ana Sánchez",
+    "email": "ana.sánchez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-017",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 16,
+          "total_citations": 3852,
+          "publications_count": 66
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000009"
+      },
+      {
+        "$oid": "000000000000000000000018"
+      },
+      {
+        "$oid": "00000000000000000000002f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000012"
+    },
+    "researcher_id": "RES_018",
+    "name": "Dr. Elena García",
+    "email": "elena.garcía@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-018",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 36,
+          "total_citations": 3561,
+          "publications_count": 98
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000003"
+      },
+      {
+        "$oid": "000000000000000000000004"
+      },
+      {
+        "$oid": "000000000000000000000006"
+      },
+      {
+        "$oid": "00000000000000000000000f"
+      },
+      {
+        "$oid": "000000000000000000000032"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000013"
+    },
+    "researcher_id": "RES_019",
+    "name": "Dr. Elena García",
+    "email": "elena.garcía@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-019",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 31,
+          "total_citations": 3946,
+          "publications_count": 68
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000003"
+      },
+      {
+        "$oid": "000000000000000000000010"
+      },
+      {
+        "$oid": "000000000000000000000031"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000014"
+    },
+    "researcher_id": "RES_020",
+    "name": "Dr. Juan Álvarez",
+    "email": "juan.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-020",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 35,
+          "total_citations": 4898,
+          "publications_count": 46
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000006"
+      },
+      {
+        "$oid": "000000000000000000000007"
+      },
+      {
+        "$oid": "000000000000000000000015"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000015"
+    },
+    "researcher_id": "RES_021",
+    "name": "Dr. Carlos Álvarez",
+    "email": "carlos.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-021",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 40,
+          "total_citations": 988,
+          "publications_count": 35
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000005"
+      },
+      {
+        "$oid": "000000000000000000000012"
+      },
+      {
+        "$oid": "000000000000000000000021"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000016"
+    },
+    "researcher_id": "RES_022",
+    "name": "Dr. María Gómez",
+    "email": "maría.gómez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-022",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 36,
+          "total_citations": 4331,
+          "publications_count": 25
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000001"
+      },
+      {
+        "$oid": "000000000000000000000012"
+      },
+      {
+        "$oid": "00000000000000000000001c"
+      },
+      {
+        "$oid": "000000000000000000000025"
+      },
+      {
+        "$oid": "000000000000000000000029"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000017"
+    },
+    "researcher_id": "RES_023",
+    "name": "Dr. Carlos López",
+    "email": "carlos.lópez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-023",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 24,
+          "total_citations": 4678,
+          "publications_count": 32
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000026"
+      },
+      {
+        "$oid": "00000000000000000000002f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000018"
+    },
+    "researcher_id": "RES_024",
+    "name": "Dr. Miguel Sánchez",
+    "email": "miguel.sánchez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-024",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 37,
+          "total_citations": 4279,
+          "publications_count": 75
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000001a"
+      },
+      {
+        "$oid": "000000000000000000000026"
+      },
+      {
+        "$oid": "00000000000000000000002d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000019"
+    },
+    "researcher_id": "RES_025",
+    "name": "Dr. Ana Ruiz",
+    "email": "ana.ruiz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-025",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 26,
+          "total_citations": 1717,
+          "publications_count": 40
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000001"
+      },
+      {
+        "$oid": "00000000000000000000001a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001a"
+    },
+    "researcher_id": "RES_026",
+    "name": "Dr. Ana Ruiz",
+    "email": "ana.ruiz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-026",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 30,
+          "total_citations": 770,
+          "publications_count": 50
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000003"
+      },
+      {
+        "$oid": "000000000000000000000028"
+      },
+      {
+        "$oid": "00000000000000000000002e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001b"
+    },
+    "researcher_id": "RES_027",
+    "name": "Dr. Javier Álvarez",
+    "email": "javier.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-027",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 17,
+          "total_citations": 4909,
+          "publications_count": 83
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000008"
+      },
+      {
+        "$oid": "000000000000000000000011"
+      },
+      {
+        "$oid": "000000000000000000000024"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001c"
+    },
+    "researcher_id": "RES_028",
+    "name": "Dr. Carlos Álvarez",
+    "email": "carlos.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-028",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 13,
+          "total_citations": 1207,
+          "publications_count": 83
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000017"
+      },
+      {
+        "$oid": "000000000000000000000030"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001d"
+    },
+    "researcher_id": "RES_029",
+    "name": "Dr. Elena Díaz",
+    "email": "elena.díaz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-029",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 12,
+          "total_citations": 4139,
+          "publications_count": 51
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001e"
+    },
+    "researcher_id": "RES_030",
+    "name": "Dr. Sofía Ruiz",
+    "email": "sofía.ruiz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-030",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 38,
+          "total_citations": 3985,
+          "publications_count": 45
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000006"
+      },
+      {
+        "$oid": "00000000000000000000000d"
+      },
+      {
+        "$oid": "000000000000000000000011"
+      },
+      {
+        "$oid": "000000000000000000000016"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000001f"
+    },
+    "researcher_id": "RES_031",
+    "name": "Dr. Ana Fernández",
+    "email": "ana.fernández@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-031",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 27,
+          "total_citations": 2262,
+          "publications_count": 40
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000000f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000020"
+    },
+    "researcher_id": "RES_032",
+    "name": "Dr. Pedro Ruiz",
+    "email": "pedro.ruiz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-032",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 15,
+          "total_citations": 2630,
+          "publications_count": 36
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000017"
+      },
+      {
+        "$oid": "000000000000000000000032"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000021"
+    },
+    "researcher_id": "RES_033",
+    "name": "Dr. Juan Álvarez",
+    "email": "juan.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-033",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 32,
+          "total_citations": 3136,
+          "publications_count": 99
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000002c"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000022"
+    },
+    "researcher_id": "RES_034",
+    "name": "Dr. María García",
+    "email": "maría.garcía@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-034",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 14,
+          "total_citations": 3851,
+          "publications_count": 71
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000019"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000023"
+    },
+    "researcher_id": "RES_035",
+    "name": "Dr. Javier Álvarez",
+    "email": "javier.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-035",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 21,
+          "total_citations": 1116,
+          "publications_count": 47
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000000e"
+      },
+      {
+        "$oid": "000000000000000000000013"
+      },
+      {
+        "$oid": "000000000000000000000018"
+      },
+      {
+        "$oid": "00000000000000000000001e"
+      },
+      {
+        "$oid": "00000000000000000000002b"
+      },
+      {
+        "$oid": "00000000000000000000002c"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000024"
+    },
+    "researcher_id": "RES_036",
+    "name": "Dr. Juan Sánchez",
+    "email": "juan.sánchez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-036",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 38,
+          "total_citations": 3142,
+          "publications_count": 100
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000003"
+      },
+      {
+        "$oid": "00000000000000000000000b"
+      },
+      {
+        "$oid": "000000000000000000000020"
+      },
+      {
+        "$oid": "000000000000000000000029"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000025"
+    },
+    "researcher_id": "RES_037",
+    "name": "Dr. María Díaz",
+    "email": "maría.díaz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-037",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 20,
+          "total_citations": 2712,
+          "publications_count": 21
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000000c"
+      },
+      {
+        "$oid": "000000000000000000000017"
+      },
+      {
+        "$oid": "000000000000000000000019"
+      },
+      {
+        "$oid": "00000000000000000000001a"
+      },
+      {
+        "$oid": "00000000000000000000001f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000026"
+    },
+    "researcher_id": "RES_038",
+    "name": "Dr. Miguel Gómez",
+    "email": "miguel.gómez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-038",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 35,
+          "total_citations": 1714,
+          "publications_count": 29
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000002"
+      },
+      {
+        "$oid": "00000000000000000000000a"
+      },
+      {
+        "$oid": "000000000000000000000018"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000027"
+    },
+    "researcher_id": "RES_039",
+    "name": "Dr. Sofía Sánchez",
+    "email": "sofía.sánchez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-039",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 22,
+          "total_citations": 524,
+          "publications_count": 77
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000009"
+      },
+      {
+        "$oid": "00000000000000000000002a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000028"
+    },
+    "researcher_id": "RES_040",
+    "name": "Dr. Ana Gómez",
+    "email": "ana.gómez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-040",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 31,
+          "total_citations": 4431,
+          "publications_count": 56
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000000d"
+      },
+      {
+        "$oid": "00000000000000000000000f"
+      },
+      {
+        "$oid": "00000000000000000000001a"
+      },
+      {
+        "$oid": "00000000000000000000001b"
+      },
+      {
+        "$oid": "000000000000000000000032"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000029"
+    },
+    "researcher_id": "RES_041",
+    "name": "Dr. Pedro Pérez",
+    "email": "pedro.pérez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-041",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 34,
+          "total_citations": 3199,
+          "publications_count": 46
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000024"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002a"
+    },
+    "researcher_id": "RES_042",
+    "name": "Dr. María García",
+    "email": "maría.garcía@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-042",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 29,
+          "total_citations": 2804,
+          "publications_count": 48
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000008"
+      },
+      {
+        "$oid": "000000000000000000000014"
+      },
+      {
+        "$oid": "000000000000000000000017"
+      },
+      {
+        "$oid": "000000000000000000000020"
+      },
+      {
+        "$oid": "000000000000000000000026"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002b"
+    },
+    "researcher_id": "RES_043",
+    "name": "Dr. Ana Martínez",
+    "email": "ana.martínez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-043",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 15,
+          "total_citations": 4862,
+          "publications_count": 65
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000017"
+      },
+      {
+        "$oid": "000000000000000000000019"
+      },
+      {
+        "$oid": "000000000000000000000027"
+      },
+      {
+        "$oid": "00000000000000000000002e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002c"
+    },
+    "researcher_id": "RES_044",
+    "name": "Dr. Ana García",
+    "email": "ana.garcía@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-044",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 38,
+          "total_citations": 1764,
+          "publications_count": 16
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000001"
+      },
+      {
+        "$oid": "000000000000000000000008"
+      },
+      {
+        "$oid": "00000000000000000000000e"
+      },
+      {
+        "$oid": "000000000000000000000014"
+      },
+      {
+        "$oid": "00000000000000000000002b"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002d"
+    },
+    "researcher_id": "RES_045",
+    "name": "Dr. Sofía Ruiz",
+    "email": "sofía.ruiz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-045",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 26,
+          "total_citations": 4921,
+          "publications_count": 72
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002e"
+    },
+    "researcher_id": "RES_046",
+    "name": "Dr. Elena Ruiz",
+    "email": "elena.ruiz@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-046",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 30,
+          "total_citations": 4153,
+          "publications_count": 76
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "00000000000000000000000d"
+      },
+      {
+        "$oid": "000000000000000000000013"
+      },
+      {
+        "$oid": "000000000000000000000015"
+      },
+      {
+        "$oid": "00000000000000000000002c"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "00000000000000000000002f"
+    },
+    "researcher_id": "RES_047",
+    "name": "Dr. Sofía Fernández",
+    "email": "sofía.fernández@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-047",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 22,
+          "total_citations": 4145,
+          "publications_count": 21
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000030"
+    },
+    "researcher_id": "RES_048",
+    "name": "Dr. Carlos Fernández",
+    "email": "carlos.fernández@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-048",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 25,
+          "total_citations": 3888,
+          "publications_count": 17
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000004"
+      },
+      {
+        "$oid": "000000000000000000000016"
+      },
+      {
+        "$oid": "000000000000000000000021"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000031"
+    },
+    "researcher_id": "RES_049",
+    "name": "Dr. Sofía Álvarez",
+    "email": "sofía.álvarez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-049",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 34,
+          "total_citations": 1964,
+          "publications_count": 87
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000006"
+      },
+      {
+        "$oid": "00000000000000000000000f"
+      },
+      {
+        "$oid": "000000000000000000000024"
+      },
+      {
+        "$oid": "00000000000000000000002d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "000000000000000000000032"
+    },
+    "researcher_id": "RES_050",
+    "name": "Dr. Ana Pérez",
+    "email": "ana.pérez@university.edu",
+    "affiliation": {
+      "institution": "Universidad Complutense",
+      "department": "Bioinformática",
+      "research_group": {
+        "name": "Computational Genomics Lab",
+        "pi": "Prof. Juan Pérez",
+        "funding": {
+          "grants": [
+            {
+              "agency": "ERC",
+              "project_id": "ERC-2023-050",
+              "amount": 1500000,
+              "period": "2023-2028"
+            }
+          ],
+          "total_budget": 1500000
+        }
+      }
+    },
+    "expertise": {
+      "areas": [
+        "transcriptomics",
+        "cancer genomics"
+      ],
+      "skills": {
+        "computational": [
+          "Python",
+          "R",
+          "MongoDB"
+        ],
+        "metrics": {
+          "h_index": 10,
+          "total_citations": 1040,
+          "publications_count": 42
+        }
+      }
+    },
+    "experiment_ids": [],
+    "publication_ids": [
+      {
+        "$oid": "000000000000000000000023"
+      }
+    ]
+  }
+]
