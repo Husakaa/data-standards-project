@@ -1,0 +1,140 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["researcher_id", "name", "email", "affiliation", "expertise", "experiment_ids", "publication_ids"],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId",
+        "description": "Identificador único de MongoDB"
+      },
+      "researcher_id": {
+        "bsonType": "string",
+        "description": "ID único del investigador (ej: RES_001)"
+      },
+      "name": {
+        "bsonType": "string",
+        "description": "Nombre completo del investigador"
+      },
+      "email": {
+        "bsonType": "string",
+        "description": "Correo electrónico de contacto"
+      },
+      "affiliation": {
+        "bsonType": "object",
+        "description": "Nivel 2: Información de afiliación institucional",
+        "required": ["institution", "department", "research_group"],
+        "properties": {
+          "institution": {
+            "bsonType": "string",
+            "description": "Nombre de la institución (ej: Universidad Complutense)"
+          },
+          "department": {
+            "bsonType": "string",
+            "description": "Departamento o facultad"
+          },
+          "research_group": {
+            "bsonType": "object",
+            "description": "Nivel 3: Detalles del grupo de investigación",
+            "required": ["name", "pi", "funding"],
+            "properties": {
+              "name": {
+                "bsonType": "string",
+                "description": "Nombre del grupo de investigación"
+              },
+              "pi": {
+                "bsonType": "string",
+                "description": "Investigador principal (Principal Investigator)"
+              },
+              "funding": {
+                "bsonType": "object",
+                "description": "Nivel 4: Información de financiación (Funding)",
+                "required": ["grants", "total_budget"],
+                "properties": {
+                  "grants": {
+                    "bsonType": "array",
+                    "description": "Lista de subvenciones/proyectos activos",
+                    "items": {
+                      "bsonType": "object",
+                      "required": ["agency", "project_id", "amount", "period"],
+                      "properties": {
+                        "agency": { "bsonType": "string" },
+                        "project_id": { "bsonType": "string" },
+                        "amount": { "bsonType": "int" },
+                        "period": { "bsonType": "string" }
+                      }
+                    }
+                  },
+                  "total_budget": {
+                    "bsonType": "int",
+                    "description": "Presupuesto total de financiación"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expertise": {
+        "bsonType": "object",
+        "description": "Nivel 2: Áreas de especialización y habilidades",
+        "required": ["areas", "skills"],
+        "properties": {
+          "areas": {
+            "bsonType": "array",
+            "description": "Áreas de expertise (ej: transcriptomics, cancer genomics)",
+            "items": {
+              "bsonType": "string"
+            }
+          },
+          "skills": {
+            "bsonType": "object",
+            "description": "Nivel 3: Habilidades técnicas y computacionales",
+            "required": ["computational", "metrics"],
+            "properties": {
+              "computational": {
+                "bsonType": "array",
+                "description": "Lenguajes y herramientas computacionales",
+                "items": {
+                  "bsonType": "string"
+                }
+              },
+              "metrics": {
+                "bsonType": "object",
+                "description": "Nivel 4: Métricas de publicación e impacto",
+                "required": ["h_index", "total_citations", "publications_count"],
+                "properties": {
+                  "h_index": {
+                    "bsonType": "int",
+                    "description": "Índice h del investigador"
+                  },
+                  "total_citations": {
+                    "bsonType": "int",
+                    "description": "Total de citas recibidas"
+                  },
+                  "publications_count": {
+                    "bsonType": "int",
+                    "description": "Número total de publicaciones"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "experiment_ids": {
+        "bsonType": "array",
+        "description": "Referencias a los experimentos liderados/participados → colección experiments",
+        "items": {
+          "bsonType": "objectId"
+        }
+      },
+      "publication_ids": {
+        "bsonType": "array",
+        "description": "Referencias a las publicaciones donde es autor → colección publications",
+        "items": {
+          "bsonType": "objectId"
+        }
+      }
+    }
+  }
+}
