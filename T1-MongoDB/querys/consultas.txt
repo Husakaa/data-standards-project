@@ -1,0 +1,5 @@
+1.Partiendo de Experiments, filtrar un experimento (por ejemplo EXP_001), sacar sus Samples y, de esos samples, los Genes detectados.
+
+2.Genes con publicaciones asociadas + filtrados por expresión en un tejido concreto (por ejemplo: "Liver")
+
+3.busca el gen más estudiado por cada investigador y además indica si ese gen tiene publicaciones y cuántas publicaciones tiene

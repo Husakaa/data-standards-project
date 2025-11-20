@@ -1,0 +1,1966 @@
+[{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e97e"
+  },
+  "gene_id": "ENSG00000141510",
+  "symbol": "TP53",
+  "name": "Tumor Protein P53",
+  "expression_data": {
+    "avg_tpm": 348.01,
+    "tissues": [
+      {
+        "tissue_type": "Whole Blood",
+        "tpm": 493.98,
+        "conditions": {
+          "normal": 20.12,
+          "tumor": 70.73,
+          "statistics": {
+            "fold_change": 6.62,
+            "p_value": 0.04609979659601779,
+            "adjusted_p_value": 0.02806991989636393
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 66.23,
+        "conditions": {
+          "normal": 36.34,
+          "tumor": 495.48,
+          "statistics": {
+            "fold_change": 2.11,
+            "p_value": 0.014328655858122468,
+            "adjusted_p_value": 0.003172814168725115
+          }
+        }
+      },
+      {
+        "tissue_type": "Whole Blood",
+        "tpm": 442.25,
+        "conditions": {
+          "normal": 17.19,
+          "tumor": 135.1,
+          "statistics": {
+            "fold_change": 3.55,
+            "p_value": 0.010299196956695478,
+            "adjusted_p_value": 0.047012322592553835
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:9552965",
+      "GO:5570580",
+      "GO:5976064"
+    ],
+    "pathways": [
+      "KEGG:60112"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "KRAS",
+        "AKT1"
+      ],
+      "network_properties": {
+        "degree": 10,
+        "betweenness": 0.8268676004822747,
+        "clustering_coefficient": 0.9007550006095452
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9d9"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e0"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9ee"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fd"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9ff"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea1b"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea1b"
+      },
+      "pmid": "23018508",
+      "doi": "10.1038/Fkis.1880",
+      "title": "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+      "publication_details": {
+        "journal": "Cell",
+        "year": 2023,
+        "metrics": {
+          "impact_factor": 66.85,
+          "citations": 1473,
+          "altmetrics": {
+            "news_mentions": 3,
+            "twitter_mentions": 160,
+            "attention_score": 78
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed integrative analysis combined with RNA-sequencing data to investigate the role of VMN# and TP53 in drug resistance. We found that VMN# expression is significantly correlated with patient survival (p=0.0400). Furthermore, TP53 shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "live",
+          "place",
+          "form",
+          "month",
+          "begin"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE48375"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9b0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9cc"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea0b"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea14"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e97e"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e980"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ab"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e97f"
+  },
+  "gene_id": "ENSG00000012048",
+  "symbol": "BRCA1",
+  "name": "Breast Cancer Type 1 Susceptibility Protein",
+  "expression_data": {
+    "avg_tpm": 447.87,
+    "tissues": [
+      {
+        "tissue_type": "Liver",
+        "tpm": 363.23,
+        "conditions": {
+          "normal": 41.45,
+          "tumor": 298.39,
+          "statistics": {
+            "fold_change": 5.23,
+            "p_value": 0.04953559599655069,
+            "adjusted_p_value": 0.03127552448192708
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:6982914",
+      "GO:7135964",
+      "GO:9104344"
+    ],
+    "pathways": [
+      "KEGG:32246"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "IL6",
+        "BRCA1"
+      ],
+      "network_properties": {
+        "degree": 62,
+        "betweenness": 0.4123208630307079,
+        "clustering_coefficient": 0.5736120650095493
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d9"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e1"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9eb"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f8"
+    }
+  ],
+  "publication_ids": [],
+  "publications": []
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e980"
+  },
+  "gene_id": "ENSG00000139618",
+  "symbol": "BRCA2",
+  "name": "Breast Cancer Type 2 Susceptibility Protein",
+  "expression_data": {
+    "avg_tpm": 890.01,
+    "tissues": [
+      {
+        "tissue_type": "Brain - Cortex",
+        "tpm": 89.67,
+        "conditions": {
+          "normal": 20.02,
+          "tumor": 336.19,
+          "statistics": {
+            "fold_change": 4.15,
+            "p_value": 0.024266444564311828,
+            "adjusted_p_value": 0.03911384294769677
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 44.17,
+        "conditions": {
+          "normal": 19.52,
+          "tumor": 465.34,
+          "statistics": {
+            "fold_change": 3.1,
+            "p_value": 0.00022903643537275261,
+            "adjusted_p_value": 0.037382477666409564
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 279.16,
+        "conditions": {
+          "normal": 10.28,
+          "tumor": 486.63,
+          "statistics": {
+            "fold_change": 3.33,
+            "p_value": 0.0396380660491475,
+            "adjusted_p_value": 0.023036554413535356
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:5824808",
+      "GO:0697575",
+      "GO:4902898"
+    ],
+    "pathways": [
+      "KEGG:76657"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "PTEN",
+        "APOE"
+      ],
+      "network_properties": {
+        "degree": 100,
+        "betweenness": 0.9252293688662325,
+        "clustering_coefficient": 0.6171948183724586
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9e1"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f9"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fb"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea1b"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea1b"
+      },
+      "pmid": "23018508",
+      "doi": "10.1038/Fkis.1880",
+      "title": "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+      "publication_details": {
+        "journal": "Cell",
+        "year": 2023,
+        "metrics": {
+          "impact_factor": 66.85,
+          "citations": 1473,
+          "altmetrics": {
+            "news_mentions": 3,
+            "twitter_mentions": 160,
+            "attention_score": 78
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed integrative analysis combined with RNA-sequencing data to investigate the role of VMN# and TP53 in drug resistance. We found that VMN# expression is significantly correlated with patient survival (p=0.0400). Furthermore, TP53 shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "live",
+          "place",
+          "form",
+          "month",
+          "begin"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE48375"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9b0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9cc"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea0b"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea14"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e97e"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e980"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ab"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e984"
+  },
+  "gene_id": "ENSG00000091831",
+  "symbol": "ESR1",
+  "name": "Estrogen Receptor 1",
+  "expression_data": {
+    "avg_tpm": 112.63,
+    "tissues": [
+      {
+        "tissue_type": "Breast Mammary Tissue",
+        "tpm": 82.72,
+        "conditions": {
+          "normal": 46.89,
+          "tumor": 236.29,
+          "statistics": {
+            "fold_change": 8.21,
+            "p_value": 0.006799922656591096,
+            "adjusted_p_value": 0.03988595473253064
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 8.87,
+        "conditions": {
+          "normal": 29.8,
+          "tumor": 148.62,
+          "statistics": {
+            "fold_change": 2.34,
+            "p_value": 0.008614151611074736,
+            "adjusted_p_value": 0.034951215092236324
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:3013279",
+      "GO:1980823",
+      "GO:5766516"
+    ],
+    "pathways": [
+      "KEGG:48532"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "ACTB",
+        "GAPDH"
+      ],
+      "network_properties": {
+        "degree": 90,
+        "betweenness": 0.6266298658860789,
+        "clustering_coefficient": 0.8949792789133104
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d7"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9ec"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fc"
+    }
+  ],
+  "publication_ids": [],
+  "publications": []
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e98a"
+  },
+  "gene_id": "ENSG00000075624",
+  "symbol": "ACTB",
+  "name": "Actin Beta",
+  "expression_data": {
+    "avg_tpm": 382.78,
+    "tissues": [
+      {
+        "tissue_type": "Whole Blood",
+        "tpm": 233.61,
+        "conditions": {
+          "normal": 23.65,
+          "tumor": 113.8,
+          "statistics": {
+            "fold_change": 6.11,
+            "p_value": 0.002090605748104961,
+            "adjusted_p_value": 0.02986234261462756
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 195.19,
+        "conditions": {
+          "normal": 49.25,
+          "tumor": 340.09,
+          "statistics": {
+            "fold_change": 3.55,
+            "p_value": 0.03252114362614944,
+            "adjusted_p_value": 0.0160484758605726
+          }
+        }
+      },
+      {
+        "tissue_type": "Breast Mammary Tissue",
+        "tpm": 286.46,
+        "conditions": {
+          "normal": 38.25,
+          "tumor": 425.22,
+          "statistics": {
+            "fold_change": 1.63,
+            "p_value": 0.010349252744883424,
+            "adjusted_p_value": 0.004128872448223823
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:9598711",
+      "GO:5023280",
+      "GO:0822347"
+    ],
+    "pathways": [
+      "KEGG:95794"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "BRCA1",
+        "IL6"
+      ],
+      "network_properties": {
+        "degree": 32,
+        "betweenness": 0.14921839868981124,
+        "clustering_coefficient": 0.34483369382510143
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d8"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f1"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fd"
+    }
+  ],
+  "publication_ids": [],
+  "publications": []
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e98d"
+  },
+  "gene_id": "ENSG77883977965",
+  "symbol": "UBV#",
+  "name": "Tumor Protein P53",
+  "expression_data": {
+    "avg_tpm": 401.05,
+    "tissues": [
+      {
+        "tissue_type": "Liver",
+        "tpm": 216.67,
+        "conditions": {
+          "normal": 37.12,
+          "tumor": 259.7,
+          "statistics": {
+            "fold_change": 1.96,
+            "p_value": 0.028887276816109836,
+            "adjusted_p_value": 0.02643304888966437
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 102.26,
+        "conditions": {
+          "normal": 35.23,
+          "tumor": 286.01,
+          "statistics": {
+            "fold_change": 9.75,
+            "p_value": 0.043895150930922444,
+            "adjusted_p_value": 0.025867676335451707
+          }
+        }
+      },
+      {
+        "tissue_type": "Pancreas",
+        "tpm": 496.08,
+        "conditions": {
+          "normal": 36.07,
+          "tumor": 169.31,
+          "statistics": {
+            "fold_change": 7.21,
+            "p_value": 0.03838528374186417,
+            "adjusted_p_value": 0.03638739526361092
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:9118825",
+      "GO:1970360",
+      "GO:3903729"
+    ],
+    "pathways": [
+      "KEGG:21596"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "EGFR",
+        "APOE"
+      ],
+      "network_properties": {
+        "degree": 59,
+        "betweenness": 0.20006046807593159,
+        "clustering_coefficient": 0.02214579552466589
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9ce"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9cf"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9de"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f3"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fc"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea1c"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832ea1f"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea1c"
+      },
+      "pmid": "25175546",
+      "doi": "10.1038/uIvG.0928",
+      "title": "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+      "publication_details": {
+        "journal": "Science",
+        "year": 2021,
+        "metrics": {
+          "impact_factor": 63.714,
+          "citations": 672,
+          "altmetrics": {
+            "news_mentions": 18,
+            "twitter_mentions": 135,
+            "attention_score": 134
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of IL6 and UBV# in cancer progression. We found that IL6 expression is significantly correlated with patient survival (p=0.0319). Furthermore, UBV# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "phone",
+          "say",
+          "through",
+          "water",
+          "make"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE37273"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9c0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c9"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9cb"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea15"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea17"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e987"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e98c"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e98d"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea1f"
+      },
+      "pmid": "61113801",
+      "doi": "10.1038/rejO.4336",
+      "title": "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+      "publication_details": {
+        "journal": "Science",
+        "year": 2024,
+        "metrics": {
+          "impact_factor": 63.714,
+          "citations": 889,
+          "altmetrics": {
+            "news_mentions": 6,
+            "twitter_mentions": 569,
+            "attention_score": 91
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of WGE# and ZLK# in drug resistance. We found that WGE# expression is significantly correlated with patient survival (p=0.0231). Furthermore, ZLK# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "with",
+          "item",
+          "third",
+          "rest",
+          "believe"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE95087"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9bf"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b1"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ba"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9be"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea03"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea15"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e98d"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e995"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e99a"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e998"
+  },
+  "gene_id": "ENSG03271980760",
+  "symbol": "SDX#",
+  "name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "expression_data": {
+    "avg_tpm": 410.69,
+    "tissues": [
+      {
+        "tissue_type": "Liver",
+        "tpm": 218.84,
+        "conditions": {
+          "normal": 48.02,
+          "tumor": 209.63,
+          "statistics": {
+            "fold_change": 8.35,
+            "p_value": 0.04155738097281703,
+            "adjusted_p_value": 0.03633399618476801
+          }
+        }
+      },
+      {
+        "tissue_type": "Lung",
+        "tpm": 98.16,
+        "conditions": {
+          "normal": 23.52,
+          "tumor": 487.89,
+          "statistics": {
+            "fold_change": 8.21,
+            "p_value": 0.013319684285192339,
+            "adjusted_p_value": 0.023999509341873945
+          }
+        }
+      },
+      {
+        "tissue_type": "Pancreas",
+        "tpm": 264.08,
+        "conditions": {
+          "normal": 24.61,
+          "tumor": 425.84,
+          "statistics": {
+            "fold_change": 3.21,
+            "p_value": 0.011182636753576862,
+            "adjusted_p_value": 0.0027612436823052536
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:2261645",
+      "GO:2797299",
+      "GO:1558545"
+    ],
+    "pathways": [
+      "KEGG:03093"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "GAPDH",
+        "BRCA1"
+      ],
+      "network_properties": {
+        "degree": 47,
+        "betweenness": 0.04653920673796974,
+        "clustering_coefficient": 0.04075962575598158
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d2"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9d6"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9d7"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e6"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e8"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e9"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9ec"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f1"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f9"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fa"
+    }
+  ],
+  "publication_ids": [],
+  "publications": []
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e99b"
+  },
+  "gene_id": "ENSG14380232415",
+  "symbol": "BVD#",
+  "name": "Interleukin 6",
+  "expression_data": {
+    "avg_tpm": 135.11,
+    "tissues": [
+      {
+        "tissue_type": "Liver",
+        "tpm": 439.55,
+        "conditions": {
+          "normal": 34.3,
+          "tumor": 100.65,
+          "statistics": {
+            "fold_change": 9.99,
+            "p_value": 0.01962650963183767,
+            "adjusted_p_value": 0.031320005522839284
+          }
+        }
+      },
+      {
+        "tissue_type": "Colon",
+        "tpm": 222.65,
+        "conditions": {
+          "normal": 13.33,
+          "tumor": 67.07,
+          "statistics": {
+            "fold_change": 3.58,
+            "p_value": 0.04322667970341629,
+            "adjusted_p_value": 0.007128833757834761
+          }
+        }
+      },
+      {
+        "tissue_type": "Colon",
+        "tpm": 34.8,
+        "conditions": {
+          "normal": 15.76,
+          "tumor": 88.56,
+          "statistics": {
+            "fold_change": 3.05,
+            "p_value": 0.03357763418866757,
+            "adjusted_p_value": 0.031518321702349285
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:3430613",
+      "GO:7409946",
+      "GO:1046261"
+    ],
+    "pathways": [
+      "KEGG:60106"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "BRCA1",
+        "IL6"
+      ],
+      "network_properties": {
+        "degree": 96,
+        "betweenness": 0.33677152396689847,
+        "clustering_coefficient": 0.9858478216055343
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9df"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9ed"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea1e"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea1e"
+      },
+      "pmid": "46632882",
+      "doi": "10.1038/MCgh.4852",
+      "title": "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+      "publication_details": {
+        "journal": "Nature",
+        "year": 2023,
+        "metrics": {
+          "impact_factor": 69.504,
+          "citations": 383,
+          "altmetrics": {
+            "news_mentions": 27,
+            "twitter_mentions": 242,
+            "attention_score": 79
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of VMN# and PTEN in cancer progression. We found that VMN# expression is significantly correlated with patient survival (p=0.0251). Furthermore, PTEN shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "very",
+          "heavy",
+          "four",
+          "issue",
+          "threat"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE88479"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9b2"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9bc"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b1"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c0"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea15"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea09"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e988"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e99b"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ab"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e99f"
+  },
+  "gene_id": "ENSG44795464580",
+  "symbol": "GBQ#",
+  "name": "Epidermal Growth Factor Receptor",
+  "expression_data": {
+    "avg_tpm": 816.06,
+    "tissues": [
+      {
+        "tissue_type": "Colon",
+        "tpm": 359.67,
+        "conditions": {
+          "normal": 16.62,
+          "tumor": 399.08,
+          "statistics": {
+            "fold_change": 5.3,
+            "p_value": 0.017664384030619516,
+            "adjusted_p_value": 0.013165704314630003
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 342.26,
+        "conditions": {
+          "normal": 41.63,
+          "tumor": 447.26,
+          "statistics": {
+            "fold_change": 6.3,
+            "p_value": 0.005153796613794251,
+            "adjusted_p_value": 0.007724711913488633
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:0337479",
+      "GO:9067504",
+      "GO:7435501"
+    ],
+    "pathways": [
+      "KEGG:53656"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "ESR1",
+        "ACTB"
+      ],
+      "network_properties": {
+        "degree": 95,
+        "betweenness": 0.09037637153182687,
+        "clustering_coefficient": 0.5977865154062603
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9da"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9de"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9df"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e9"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f2"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fc"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea19"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea19"
+      },
+      "pmid": "11496867",
+      "doi": "10.1038/qtum.6312",
+      "title": "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+      "publication_details": {
+        "journal": "PLOS Computational Biology",
+        "year": 2023,
+        "metrics": {
+          "impact_factor": 4.767,
+          "citations": 1112,
+          "altmetrics": {
+            "news_mentions": 20,
+            "twitter_mentions": 90,
+            "attention_score": 109
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of LGS# and GBQ# in cancer progression. We found that LGS# expression is significantly correlated with patient survival (p=0.0039). Furthermore, GBQ# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "plan",
+          "still",
+          "various",
+          "not",
+          "decision"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE48710"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9c8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c9"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9bd"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c3"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea02"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea05"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e993"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e99f"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ac"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e9a4"
+  },
+  "gene_id": "ENSG52094901849",
+  "symbol": "AFR#",
+  "name": "MYC Proto-Oncogene",
+  "expression_data": {
+    "avg_tpm": 288.73,
+    "tissues": [
+      {
+        "tissue_type": "Pancreas",
+        "tpm": 18.48,
+        "conditions": {
+          "normal": 47.76,
+          "tumor": 106.6,
+          "statistics": {
+            "fold_change": 8.05,
+            "p_value": 0.0445649226768739,
+            "adjusted_p_value": 0.019606465169299626
+          }
+        }
+      },
+      {
+        "tissue_type": "Colon",
+        "tpm": 325.46,
+        "conditions": {
+          "normal": 9.2,
+          "tumor": 98.46,
+          "statistics": {
+            "fold_change": 6.19,
+            "p_value": 0.038705048343134534,
+            "adjusted_p_value": 0.049929492040075095
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 332.63,
+        "conditions": {
+          "normal": 38.55,
+          "tumor": 317.82,
+          "statistics": {
+            "fold_change": 4.67,
+            "p_value": 0.03489187130731236,
+            "adjusted_p_value": 0.013750402075750135
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:5237821",
+      "GO:4200601",
+      "GO:0568058"
+    ],
+    "pathways": [
+      "KEGG:95701"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "ESR1",
+        "ACTB"
+      ],
+      "network_properties": {
+        "degree": 41,
+        "betweenness": 0.09401205624797682,
+        "clustering_coefficient": 0.458608420822326
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d3"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9d7"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e1"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e5"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f1"
+    }
+  ],
+  "publication_ids": [],
+  "publications": []
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e9a9"
+  },
+  "gene_id": "ENSG77724549850",
+  "symbol": "OWG#",
+  "name": "Tumor Necrosis Factor",
+  "expression_data": {
+    "avg_tpm": 631.84,
+    "tissues": [
+      {
+        "tissue_type": "Liver",
+        "tpm": 293.45,
+        "conditions": {
+          "normal": 22.16,
+          "tumor": 190.74,
+          "statistics": {
+            "fold_change": 2.13,
+            "p_value": 0.026447269980428328,
+            "adjusted_p_value": 0.026424808167231518
+          }
+        }
+      },
+      {
+        "tissue_type": "Brain - Cortex",
+        "tpm": 369.18,
+        "conditions": {
+          "normal": 10.64,
+          "tumor": 434.92,
+          "statistics": {
+            "fold_change": 7.72,
+            "p_value": 0.019270946069610783,
+            "adjusted_p_value": 0.0265408011864366
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:2917895",
+      "GO:3664611",
+      "GO:5278619"
+    ],
+    "pathways": [
+      "KEGG:51223"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "VEGFA",
+        "PTEN"
+      ],
+      "network_properties": {
+        "degree": 4,
+        "betweenness": 0.10974376750901527,
+        "clustering_coefficient": 0.03833289334106049
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d1"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9d5"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9de"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9ea"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f6"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fa"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea21"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea21"
+      },
+      "pmid": "42686166",
+      "doi": "10.1038/fqWg.0884",
+      "title": "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression",
+      "publication_details": {
+        "journal": "Nature Genetics",
+        "year": 2021,
+        "metrics": {
+          "impact_factor": 41.307,
+          "citations": 95,
+          "altmetrics": {
+            "news_mentions": 30,
+            "twitter_mentions": 333,
+            "attention_score": 109
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of QOY# and APOE in cancer progression. We found that QOY# expression is significantly correlated with patient survival (p=0.0157). Furthermore, APOE shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "strategy",
+          "city",
+          "anyone",
+          "turn",
+          "voice"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE26451"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9c7"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9bc"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9cb"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c2"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea10"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea0b"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e983"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e994"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9a9"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e9aa"
+  },
+  "gene_id": "ENSG58760580022",
+  "symbol": "FQM#",
+  "name": "Interleukin 6",
+  "expression_data": {
+    "avg_tpm": 698,
+    "tissues": [
+      {
+        "tissue_type": "Liver",
+        "tpm": 115.28,
+        "conditions": {
+          "normal": 27.49,
+          "tumor": 149.07,
+          "statistics": {
+            "fold_change": 9.95,
+            "p_value": 0.002424287857021244,
+            "adjusted_p_value": 0.028441981771892486
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:1302300",
+      "GO:8945659",
+      "GO:9701716"
+    ],
+    "pathways": [
+      "KEGG:67618"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "APOE",
+        "APOE"
+      ],
+      "network_properties": {
+        "degree": 53,
+        "betweenness": 0.4255495463092226,
+        "clustering_coefficient": 0.31532342809350034
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9dc"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fe"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea24"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea24"
+      },
+      "pmid": "77397091",
+      "doi": "10.1038/QcqE.1920",
+      "title": "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance",
+      "publication_details": {
+        "journal": "Nucleic Acids Research",
+        "year": 2022,
+        "metrics": {
+          "impact_factor": 19.16,
+          "citations": 1110,
+          "altmetrics": {
+            "news_mentions": 11,
+            "twitter_mentions": 498,
+            "attention_score": 89
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed integrative analysis combined with RNA-sequencing data to investigate the role of FQM# and YGG# in drug resistance. We found that FQM# expression is significantly correlated with patient survival (p=0.0348). Furthermore, YGG# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "question",
+          "claim",
+          "join",
+          "value",
+          "something"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE10921"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9c5"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9cb"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b2"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea10"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea09"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9aa"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ab"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ad"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e9ad"
+  },
+  "gene_id": "ENSG35116599063",
+  "symbol": "YGG#",
+  "name": "Breast Cancer Type 2 Susceptibility Protein",
+  "expression_data": {
+    "avg_tpm": 345.04,
+    "tissues": [
+      {
+        "tissue_type": "Liver",
+        "tpm": 428.83,
+        "conditions": {
+          "normal": 46.45,
+          "tumor": 77.48,
+          "statistics": {
+            "fold_change": 2.46,
+            "p_value": 0.007939108287422631,
+            "adjusted_p_value": 0.012823358184559845
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:7223614",
+      "GO:2608019",
+      "GO:5570738"
+    ],
+    "pathways": [
+      "KEGG:98327"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "PTEN",
+        "EGFR"
+      ],
+      "network_properties": {
+        "degree": 33,
+        "betweenness": 0.4061604990692753,
+        "clustering_coefficient": 0.8860664496051496
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d9"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e3"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e8"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9ec"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f3"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9fb"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea24"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea24"
+      },
+      "pmid": "77397091",
+      "doi": "10.1038/QcqE.1920",
+      "title": "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance",
+      "publication_details": {
+        "journal": "Nucleic Acids Research",
+        "year": 2022,
+        "metrics": {
+          "impact_factor": 19.16,
+          "citations": 1110,
+          "altmetrics": {
+            "news_mentions": 11,
+            "twitter_mentions": 498,
+            "attention_score": 89
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed integrative analysis combined with RNA-sequencing data to investigate the role of FQM# and YGG# in drug resistance. We found that FQM# expression is significantly correlated with patient survival (p=0.0348). Furthermore, YGG# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "question",
+          "claim",
+          "join",
+          "value",
+          "something"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE10921"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9c5"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9c8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9cb"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b2"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea10"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea09"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9aa"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ab"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ad"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832e9af"
+  },
+  "gene_id": "ENSG94812024244",
+  "symbol": "ZHM#",
+  "name": "Vascular Endothelial Growth Factor A",
+  "expression_data": {
+    "avg_tpm": 451.77,
+    "tissues": [
+      {
+        "tissue_type": "Lung",
+        "tpm": 54.74,
+        "conditions": {
+          "normal": 37.36,
+          "tumor": 425.18,
+          "statistics": {
+            "fold_change": 9.76,
+            "p_value": 0.04213212258681002,
+            "adjusted_p_value": 0.0037154396203340876
+          }
+        }
+      },
+      {
+        "tissue_type": "Lung",
+        "tpm": 97.08,
+        "conditions": {
+          "normal": 21.46,
+          "tumor": 496.29,
+          "statistics": {
+            "fold_change": 6.84,
+            "p_value": 0.04633282035898004,
+            "adjusted_p_value": 0.016586973993176622
+          }
+        }
+      },
+      {
+        "tissue_type": "Liver",
+        "tpm": 95.22,
+        "conditions": {
+          "normal": 36.21,
+          "tumor": 417.51,
+          "statistics": {
+            "fold_change": 1.81,
+            "p_value": 0.003773143299673406,
+            "adjusted_p_value": 0.02124657972328361
+          }
+        }
+      }
+    ]
+  },
+  "functional_annotation": {
+    "go_terms": [
+      "GO:4733199",
+      "GO:9516193",
+      "GO:0984266"
+    ],
+    "pathways": [
+      "KEGG:24595"
+    ],
+    "interactions": {
+      "protein_interactions": [
+        "ACTB",
+        "VEGFA"
+      ],
+      "network_properties": {
+        "degree": 12,
+        "betweenness": 0.6232477708844096,
+        "clustering_coefficient": 0.5524167749559921
+      }
+    }
+  },
+  "variants": [],
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9d0"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9df"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e7"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f5"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea22"
+    }
+  ],
+  "publications": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832ea22"
+      },
+      "pmid": "17552142",
+      "doi": "10.1038/EGLq.9752",
+      "title": "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression",
+      "publication_details": {
+        "journal": "Cell",
+        "year": 2024,
+        "metrics": {
+          "impact_factor": 66.85,
+          "citations": 902,
+          "altmetrics": {
+            "news_mentions": 30,
+            "twitter_mentions": 418,
+            "attention_score": 140
+          }
+        }
+      },
+      "content": {
+        "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of LJE# and ZHM# in cancer progression. We found that LJE# expression is significantly correlated with patient survival (p=0.0201). Furthermore, ZHM# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+        "keywords": [
+          "chance",
+          "accept",
+          "whole",
+          "whether",
+          "blue"
+        ],
+        "datasets": {
+          "repositories": [
+            "GEO",
+            "SRA"
+          ],
+          "accessions": {
+            "geo_series": "GSE36712"
+          }
+        }
+      },
+      "researcher_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9c8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b6"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9b3"
+        }
+      ],
+      "experiment_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea17"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea11"
+        }
+      ],
+      "gene_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e982"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9a6"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9af"
+        }
+      ]
+    }
+  ]
+}]

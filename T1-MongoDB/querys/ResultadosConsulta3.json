@@ -1,0 +1,4696 @@
+[{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "UBV#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "FPU#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "NRL#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_012",
+  "experiment_title": "RNA-Seq analysis of way cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ESR1",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "UIE#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "AFR#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_045",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_045",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_045",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_045",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TKL#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Thomas Golden MD",
+  "researcher_email": "erin87@example.net",
+  "experiment_id": "EXP_021",
+  "experiment_title": "RNA-Seq analysis of responsibility cells",
+  "sample_id": "SMP_045",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "AFR#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "LJE#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "VMN#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "FPU#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_002",
+  "experiment_title": "RNA-Seq analysis of ball cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "GAPDH",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "HWQ#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "HWQ#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "XUF#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TKL#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Melinda Freeman",
+  "researcher_email": "taylorfrank@example.com",
+  "experiment_id": "EXP_008",
+  "experiment_title": "RNA-Seq analysis of happen cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FQM#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_023",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "MYC",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_023",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ACTB",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_023",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_023",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FQM#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_023",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "UBV#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "UIE#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Desiree Smith",
+  "researcher_email": "annholland@example.com",
+  "experiment_id": "EXP_001",
+  "experiment_title": "RNA-Seq analysis of lead cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ESR1",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "UIE#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_010",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "AFR#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "William Evans",
+  "researcher_email": "william13@example.com",
+  "experiment_id": "EXP_003",
+  "experiment_title": "RNA-Seq analysis of together cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "HWQ#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VMN#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ACTB",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "XUF#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "XUF#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TKL#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Leslie Hughes",
+  "researcher_email": "tstephens@example.com",
+  "experiment_id": "EXP_024",
+  "experiment_title": "RNA-Seq analysis of couple cells",
+  "sample_id": "SMP_049",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FQM#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_035",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_035",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KRAS",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_035",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_035",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_035",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "NMT#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA2",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "NRL#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Anthony Reid",
+  "researcher_email": "maria57@example.net",
+  "experiment_id": "EXP_004",
+  "experiment_title": "RNA-Seq analysis of night cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_014",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_014",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_014",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_014",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "XUF#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_014",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "OZO#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GAPDH",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_017",
+  "experiment_title": "RNA-Seq analysis of since cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "HWQ#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "UBV#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "FPU#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_040",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_040",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_040",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_040",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "NMT#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_040",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Kara Mcclure",
+  "researcher_email": "marksroger@example.org",
+  "experiment_id": "EXP_025",
+  "experiment_title": "RNA-Seq analysis of different cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_001",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_001",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "UBV#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_001",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_001",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_001",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "FPU#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_028",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA2",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "NRL#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Megan Paul",
+  "researcher_email": "egomez@example.net",
+  "experiment_id": "EXP_011",
+  "experiment_title": "RNA-Seq analysis of paper cells",
+  "sample_id": "SMP_046",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "MYC",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_032",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_032",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_032",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "BVD#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_032",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "NRL#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_032",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TP53",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "MYC",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Todd Bennett",
+  "researcher_email": "trichards@example.net",
+  "experiment_id": "EXP_014",
+  "experiment_title": "RNA-Seq analysis of agreement cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BVD#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LJE#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GAPDH",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_029",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "NRL#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jason Tanner",
+  "researcher_email": "whitechelsea@example.com",
+  "experiment_id": "EXP_009",
+  "experiment_title": "RNA-Seq analysis of study cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_004",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_004",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_004",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "WGE#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_004",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "HWQ#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_004",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Denise Clay",
+  "researcher_email": "amandasanchez@example.org",
+  "experiment_id": "EXP_007",
+  "experiment_title": "RNA-Seq analysis of type cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_022",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_022",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GAPDH",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_022",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_022",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_022",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "UBV#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "UIE#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_038",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Austin Davis",
+  "researcher_email": "schultzterri@example.com",
+  "experiment_id": "EXP_018",
+  "experiment_title": "RNA-Seq analysis of purpose cells",
+  "sample_id": "SMP_043",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "HWQ#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "NRL#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Eric Villanueva",
+  "researcher_email": "sclark@example.org",
+  "experiment_id": "EXP_020",
+  "experiment_title": "RNA-Seq analysis of spend cells",
+  "sample_id": "SMP_041",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_007",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TP53",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_007",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_007",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "XUF#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_007",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_007",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "NMT#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "KRAS",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "WGE#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FQM#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_015",
+  "experiment_title": "RNA-Seq analysis of blood cells",
+  "sample_id": "SMP_026",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ACTB",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "XUF#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_011",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "ESR1",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "MHV#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "UIE#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Rebecca Jacobs",
+  "researcher_email": "mendezkimberly@example.org",
+  "experiment_id": "EXP_023",
+  "experiment_title": "RNA-Seq analysis of door cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "GAPDH",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_005",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "HWQ#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "ESR1",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "MHV#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "UIE#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_031",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_050",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TP53",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_050",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_050",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_050",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "NRL#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_005",
+  "experiment_title": "RNA-Seq analysis of site cells",
+  "sample_id": "SMP_050",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VMN#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "KRAS",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "WGE#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FQM#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TP53",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "MYC",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Cody Chavez",
+  "researcher_email": "hughesjames@example.com",
+  "experiment_id": "EXP_010",
+  "experiment_title": "RNA-Seq analysis of minute cells",
+  "sample_id": "SMP_033",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "APOE",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "UBV#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "FPU#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_017",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "OWG#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BVD#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LJE#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_018",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "MYC",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Jacob Chung",
+  "researcher_email": "dereksingh@example.com",
+  "experiment_id": "EXP_022",
+  "experiment_title": "RNA-Seq analysis of music cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "MYC",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_037",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Ryan Mccormick",
+  "researcher_email": "robert90@example.net",
+  "experiment_id": "EXP_013",
+  "experiment_title": "RNA-Seq analysis of think cells",
+  "sample_id": "SMP_042",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "KJP#",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "KRAS",
+  "gene_name": "KRAS Proto-Oncogene, GTPase",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LFX#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "WGE#",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_015",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "FQM#",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_034",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_034",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "NBI#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_034",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_034",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "UIE#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Dana Jackson",
+  "researcher_email": "alexanderjohnson@example.org",
+  "experiment_id": "EXP_006",
+  "experiment_title": "RNA-Seq analysis of commercial cells",
+  "sample_id": "SMP_034",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LJE#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VEGFA",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "TNF",
+  "gene_name": "Tumor Necrosis Factor",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "QUR#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "VMN#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_003",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "ZHM#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ERE#",
+  "gene_name": "Vascular Endothelial Growth Factor A",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "GBQ#",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_013",
+  "sample_source": "Blood Plasma",
+  "gene_symbol": "FKI#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "DGG#",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "ZLK#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_016",
+  "experiment_title": "RNA-Seq analysis of behind cells",
+  "sample_id": "SMP_027",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "YGG#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "AFR#",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "LJE#",
+  "gene_name": "Phosphatase and Tensin Homolog",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_006",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "VMN#",
+  "gene_name": "Tumor Protein P53",
+  "publications_titles": [
+    "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+    "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+    "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "EGFR",
+  "gene_name": "Epidermal Growth Factor Receptor",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "MYC",
+  "gene_name": "MYC Proto-Oncogene",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "QOY#",
+  "gene_name": "AKT Serine/Threonine Kinase 1",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "SDX#",
+  "gene_name": "Glyceraldehyde-3-Phosphate Dehydrogenase",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_025",
+  "sample_source": "Normal Tissue",
+  "gene_symbol": "TNP#",
+  "gene_name": "Actin Beta",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "BRCA1",
+  "gene_name": "Breast Cancer Type 1 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "IL6",
+  "gene_name": "Interleukin 6",
+  "publications_titles": [
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "LGS#",
+  "gene_name": "Estrogen Receptor 1",
+  "publications_titles": [
+    "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression"
+  ]
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "CYX#",
+  "gene_name": "Breast Cancer Type 2 Susceptibility Protein",
+  "publications_titles": []
+},
+{
+  "researcher_name": "Linda Rice",
+  "researcher_email": "derrickvega@example.org",
+  "experiment_id": "EXP_019",
+  "experiment_title": "RNA-Seq analysis of million cells",
+  "sample_id": "SMP_030",
+  "sample_source": "Tumor Biopsy",
+  "gene_symbol": "MWS#",
+  "gene_name": "Apolipoprotein E",
+  "publications_titles": []
+}]

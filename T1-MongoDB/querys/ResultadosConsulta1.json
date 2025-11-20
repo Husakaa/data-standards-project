@@ -1,0 +1,1657 @@
+[{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832ea00"
+  },
+  "experiment_id": "EXP_001",
+  "title": "RNA-Seq analysis of lead cells",
+  "type": "RNA-Seq",
+  "date": {
+    "$date": "2025-11-03T23:32:20.031Z"
+  },
+  "status": "Completed",
+  "methodology": {
+    "platform": "Illumina NovaSeq 6000",
+    "library_prep": "TruSeq Stranded mRNA",
+    "sequencing_params": {
+      "read_length": 150,
+      "coverage": "50X",
+      "quality_control": {
+        "q30_percentage": 92.5,
+        "adapter_contamination": 0.1,
+        "duplication_rate": 12.4
+      }
+    }
+  },
+  "researcher_id": {
+    "$oid": "691f60b2c55c72ba0832e9b3"
+  },
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9f3"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f7"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea20"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832ea23"
+    }
+  ],
+  "samples": {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    "sample_id": "SMP_023",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_3684",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-02-25T20:49:41.047Z"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 86,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2021-05-01T21:23:25.793Z"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.9,
+        "concentration": 100,
+        "quality_metrics": {
+          "a260_280": 2,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e986"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9aa"
+      }
+    ]
+  },
+  "genes_detected": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e986"
+      },
+      "gene_id": "ENSG00000136997",
+      "symbol": "MYC",
+      "name": "MYC Proto-Oncogene",
+      "expression_data": {
+        "avg_tpm": 518.6,
+        "tissues": [
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 56.13,
+            "conditions": {
+              "normal": 9.63,
+              "tumor": 384.78,
+              "statistics": {
+                "fold_change": 8.01,
+                "p_value": 0.04999151411958158,
+                "adjusted_p_value": 0.039923105483098534
+              }
+            }
+          },
+          {
+            "tissue_type": "Brain - Cortex",
+            "tpm": 80.89,
+            "conditions": {
+              "normal": 18.24,
+              "tumor": 489.49,
+              "statistics": {
+                "fold_change": 5.52,
+                "p_value": 0.04942560096646615,
+                "adjusted_p_value": 0.032016096380544604
+              }
+            }
+          },
+          {
+            "tissue_type": "Pancreas",
+            "tpm": 365.97,
+            "conditions": {
+              "normal": 27.23,
+              "tumor": 116.22,
+              "statistics": {
+                "fold_change": 5.37,
+                "p_value": 0.029669474875134265,
+                "adjusted_p_value": 0.0042678701021049
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:3909884",
+          "GO:3327880",
+          "GO:0862120"
+        ],
+        "pathways": [
+          "KEGG:60359"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "GAPDH",
+            "BRCA1"
+          ],
+          "network_properties": {
+            "degree": 76,
+            "betweenness": 0.09324899347836946,
+            "clustering_coefficient": 0.8243018757171058
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9e4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e6"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ee"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea20"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea26"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e98a"
+      },
+      "gene_id": "ENSG00000075624",
+      "symbol": "ACTB",
+      "name": "Actin Beta",
+      "expression_data": {
+        "avg_tpm": 382.78,
+        "tissues": [
+          {
+            "tissue_type": "Whole Blood",
+            "tpm": 233.61,
+            "conditions": {
+              "normal": 23.65,
+              "tumor": 113.8,
+              "statistics": {
+                "fold_change": 6.11,
+                "p_value": 0.002090605748104961,
+                "adjusted_p_value": 0.02986234261462756
+              }
+            }
+          },
+          {
+            "tissue_type": "Liver",
+            "tpm": 195.19,
+            "conditions": {
+              "normal": 49.25,
+              "tumor": 340.09,
+              "statistics": {
+                "fold_change": 3.55,
+                "p_value": 0.03252114362614944,
+                "adjusted_p_value": 0.0160484758605726
+              }
+            }
+          },
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 286.46,
+            "conditions": {
+              "normal": 38.25,
+              "tumor": 425.22,
+              "statistics": {
+                "fold_change": 1.63,
+                "p_value": 0.010349252744883424,
+                "adjusted_p_value": 0.004128872448223823
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:9598711",
+          "GO:5023280",
+          "GO:0822347"
+        ],
+        "pathways": [
+          "KEGG:95794"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "BRCA1",
+            "IL6"
+          ],
+          "network_properties": {
+            "degree": 32,
+            "betweenness": 0.14921839868981124,
+            "clustering_coefficient": 0.34483369382510143
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f1"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fd"
+        }
+      ],
+      "publication_ids": []
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      },
+      "gene_id": "ENSG77724549850",
+      "symbol": "OWG#",
+      "name": "Tumor Necrosis Factor",
+      "expression_data": {
+        "avg_tpm": 631.84,
+        "tissues": [
+          {
+            "tissue_type": "Liver",
+            "tpm": 293.45,
+            "conditions": {
+              "normal": 22.16,
+              "tumor": 190.74,
+              "statistics": {
+                "fold_change": 2.13,
+                "p_value": 0.026447269980428328,
+                "adjusted_p_value": 0.026424808167231518
+              }
+            }
+          },
+          {
+            "tissue_type": "Brain - Cortex",
+            "tpm": 369.18,
+            "conditions": {
+              "normal": 10.64,
+              "tumor": 434.92,
+              "statistics": {
+                "fold_change": 7.72,
+                "p_value": 0.019270946069610783,
+                "adjusted_p_value": 0.0265408011864366
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:2917895",
+          "GO:3664611",
+          "GO:5278619"
+        ],
+        "pathways": [
+          "KEGG:51223"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "VEGFA",
+            "PTEN"
+          ],
+          "network_properties": {
+            "degree": 4,
+            "betweenness": 0.10974376750901527,
+            "clustering_coefficient": 0.03833289334106049
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d1"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9d5"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9de"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ea"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f6"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fa"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea21"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e9aa"
+      },
+      "gene_id": "ENSG58760580022",
+      "symbol": "FQM#",
+      "name": "Interleukin 6",
+      "expression_data": {
+        "avg_tpm": 698,
+        "tissues": [
+          {
+            "tissue_type": "Liver",
+            "tpm": 115.28,
+            "conditions": {
+              "normal": 27.49,
+              "tumor": 149.07,
+              "statistics": {
+                "fold_change": 9.95,
+                "p_value": 0.002424287857021244,
+                "adjusted_p_value": 0.028441981771892486
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:1302300",
+          "GO:8945659",
+          "GO:9701716"
+        ],
+        "pathways": [
+          "KEGG:67618"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "APOE",
+            "APOE"
+          ],
+          "network_properties": {
+            "degree": 53,
+            "betweenness": 0.4255495463092226,
+            "clustering_coefficient": 0.31532342809350034
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9dc"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fe"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea24"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      },
+      "gene_id": "ENSG94812024244",
+      "symbol": "ZHM#",
+      "name": "Vascular Endothelial Growth Factor A",
+      "expression_data": {
+        "avg_tpm": 451.77,
+        "tissues": [
+          {
+            "tissue_type": "Lung",
+            "tpm": 54.74,
+            "conditions": {
+              "normal": 37.36,
+              "tumor": 425.18,
+              "statistics": {
+                "fold_change": 9.76,
+                "p_value": 0.04213212258681002,
+                "adjusted_p_value": 0.0037154396203340876
+              }
+            }
+          },
+          {
+            "tissue_type": "Lung",
+            "tpm": 97.08,
+            "conditions": {
+              "normal": 21.46,
+              "tumor": 496.29,
+              "statistics": {
+                "fold_change": 6.84,
+                "p_value": 0.04633282035898004,
+                "adjusted_p_value": 0.016586973993176622
+              }
+            }
+          },
+          {
+            "tissue_type": "Liver",
+            "tpm": 95.22,
+            "conditions": {
+              "normal": 36.21,
+              "tumor": 417.51,
+              "statistics": {
+                "fold_change": 1.81,
+                "p_value": 0.003773143299673406,
+                "adjusted_p_value": 0.02124657972328361
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:4733199",
+          "GO:9516193",
+          "GO:0984266"
+        ],
+        "pathways": [
+          "KEGG:24595"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "ACTB",
+            "VEGFA"
+          ],
+          "network_properties": {
+            "degree": 12,
+            "betweenness": 0.6232477708844096,
+            "clustering_coefficient": 0.5524167749559921
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9df"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e7"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f5"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea22"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832ea00"
+  },
+  "experiment_id": "EXP_001",
+  "title": "RNA-Seq analysis of lead cells",
+  "type": "RNA-Seq",
+  "date": {
+    "$date": "2025-11-03T23:32:20.031Z"
+  },
+  "status": "Completed",
+  "methodology": {
+    "platform": "Illumina NovaSeq 6000",
+    "library_prep": "TruSeq Stranded mRNA",
+    "sequencing_params": {
+      "read_length": 150,
+      "coverage": "50X",
+      "quality_control": {
+        "q30_percentage": 92.5,
+        "adapter_contamination": 0.1,
+        "duplication_rate": 12.4
+      }
+    }
+  },
+  "researcher_id": {
+    "$oid": "691f60b2c55c72ba0832e9b3"
+  },
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9f3"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f7"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea20"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832ea23"
+    }
+  ],
+  "samples": {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f3"
+    },
+    "sample_id": "SMP_038",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1715",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-09-16T11:34:43.126Z"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 10,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-12-04T08:24:21.726Z"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.9,
+        "concentration": 90,
+        "quality_metrics": {
+          "a260_280": 2,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea11"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      }
+    ]
+  },
+  "genes_detected": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      },
+      "gene_id": "ENSG77883977965",
+      "symbol": "UBV#",
+      "name": "Tumor Protein P53",
+      "expression_data": {
+        "avg_tpm": 401.05,
+        "tissues": [
+          {
+            "tissue_type": "Liver",
+            "tpm": 216.67,
+            "conditions": {
+              "normal": 37.12,
+              "tumor": 259.7,
+              "statistics": {
+                "fold_change": 1.96,
+                "p_value": 0.028887276816109836,
+                "adjusted_p_value": 0.02643304888966437
+              }
+            }
+          },
+          {
+            "tissue_type": "Liver",
+            "tpm": 102.26,
+            "conditions": {
+              "normal": 35.23,
+              "tumor": 286.01,
+              "statistics": {
+                "fold_change": 9.75,
+                "p_value": 0.043895150930922444,
+                "adjusted_p_value": 0.025867676335451707
+              }
+            }
+          },
+          {
+            "tissue_type": "Pancreas",
+            "tpm": 496.08,
+            "conditions": {
+              "normal": 36.07,
+              "tumor": 169.31,
+              "statistics": {
+                "fold_change": 7.21,
+                "p_value": 0.03838528374186417,
+                "adjusted_p_value": 0.03638739526361092
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:9118825",
+          "GO:1970360",
+          "GO:3903729"
+        ],
+        "pathways": [
+          "KEGG:21596"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "EGFR",
+            "APOE"
+          ],
+          "network_properties": {
+            "degree": 59,
+            "betweenness": 0.20006046807593159,
+            "clustering_coefficient": 0.02214579552466589
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9ce"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9cf"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9de"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fc"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea1c"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea1f"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      "gene_id": "ENSG01077324251",
+      "symbol": "LGS#",
+      "name": "Estrogen Receptor 1",
+      "expression_data": {
+        "avg_tpm": 720.52,
+        "tissues": [
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 333.87,
+            "conditions": {
+              "normal": 34.77,
+              "tumor": 401.99,
+              "statistics": {
+                "fold_change": 5.53,
+                "p_value": 0.03451131859357834,
+                "adjusted_p_value": 0.026887218448254858
+              }
+            }
+          },
+          {
+            "tissue_type": "Lung",
+            "tpm": 114.42,
+            "conditions": {
+              "normal": 22.03,
+              "tumor": 207.85,
+              "statistics": {
+                "fold_change": 4.66,
+                "p_value": 0.007751916243821268,
+                "adjusted_p_value": 0.0003150494307677579
+              }
+            }
+          },
+          {
+            "tissue_type": "Brain - Cortex",
+            "tpm": 478.35,
+            "conditions": {
+              "normal": 15.48,
+              "tumor": 439.52,
+              "statistics": {
+                "fold_change": 1.76,
+                "p_value": 0.02809932651338919,
+                "adjusted_p_value": 0.027259311202132017
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:7521142",
+          "GO:7617923",
+          "GO:5685382"
+        ],
+        "pathways": [
+          "KEGG:75437"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "KRAS",
+            "VEGFA"
+          ],
+          "network_properties": {
+            "degree": 81,
+            "betweenness": 0.5622287498579847,
+            "clustering_coefficient": 0.8783674985918515
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9d8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9eb"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f7"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea19"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea1d"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      },
+      "gene_id": "ENSG30355664291",
+      "symbol": "UIE#",
+      "name": "Tumor Protein P53",
+      "expression_data": {
+        "avg_tpm": 201.97,
+        "tissues": [
+          {
+            "tissue_type": "Colon",
+            "tpm": 86.38,
+            "conditions": {
+              "normal": 30.24,
+              "tumor": 73.51,
+              "statistics": {
+                "fold_change": 4.21,
+                "p_value": 0.017973020019066425,
+                "adjusted_p_value": 0.038638167935586984
+              }
+            }
+          },
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 277.53,
+            "conditions": {
+              "normal": 43.93,
+              "tumor": 459.26,
+              "statistics": {
+                "fold_change": 3.61,
+                "p_value": 0.046864559870242704,
+                "adjusted_p_value": 0.0324215645613821
+              }
+            }
+          },
+          {
+            "tissue_type": "Brain - Cortex",
+            "tpm": 250.34,
+            "conditions": {
+              "normal": 31.72,
+              "tumor": 57.23,
+              "statistics": {
+                "fold_change": 8.82,
+                "p_value": 0.0005181627490575315,
+                "adjusted_p_value": 0.0017819248752939303
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:5972886",
+          "GO:2750164",
+          "GO:9572345"
+        ],
+        "pathways": [
+          "KEGG:35781"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "IL6",
+            "KRAS"
+          ],
+          "network_properties": {
+            "degree": 8,
+            "betweenness": 0.8114636085880547,
+            "clustering_coefficient": 0.4852756463799871
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d7"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ec"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ef"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fd"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea1d"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      },
+      "gene_id": "ENSG93930243331",
+      "symbol": "QUR#",
+      "name": "Estrogen Receptor 1",
+      "expression_data": {
+        "avg_tpm": 553.94,
+        "tissues": [
+          {
+            "tissue_type": "Colon",
+            "tpm": 364.74,
+            "conditions": {
+              "normal": 33.4,
+              "tumor": 259.94,
+              "statistics": {
+                "fold_change": 9.38,
+                "p_value": 0.029671523347770512,
+                "adjusted_p_value": 0.010155939117056164
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:0830020",
+          "GO:3904212",
+          "GO:4005218"
+        ],
+        "pathways": [
+          "KEGG:22391"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "GAPDH",
+            "GAPDH"
+          ],
+          "network_properties": {
+            "degree": 82,
+            "betweenness": 0.14478934582766056,
+            "clustering_coefficient": 0.5445309837631509
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9d6"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9dc"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f2"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f6"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea23"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea25"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      },
+      "gene_id": "ENSG35116599063",
+      "symbol": "YGG#",
+      "name": "Breast Cancer Type 2 Susceptibility Protein",
+      "expression_data": {
+        "avg_tpm": 345.04,
+        "tissues": [
+          {
+            "tissue_type": "Liver",
+            "tpm": 428.83,
+            "conditions": {
+              "normal": 46.45,
+              "tumor": 77.48,
+              "statistics": {
+                "fold_change": 2.46,
+                "p_value": 0.007939108287422631,
+                "adjusted_p_value": 0.012823358184559845
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:7223614",
+          "GO:2608019",
+          "GO:5570738"
+        ],
+        "pathways": [
+          "KEGG:98327"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "PTEN",
+            "EGFR"
+          ],
+          "network_properties": {
+            "degree": 33,
+            "betweenness": 0.4061604990692753,
+            "clustering_coefficient": 0.8860664496051496
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d9"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ec"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fb"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea24"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "691f60b2c55c72ba0832ea00"
+  },
+  "experiment_id": "EXP_001",
+  "title": "RNA-Seq analysis of lead cells",
+  "type": "RNA-Seq",
+  "date": {
+    "$date": "2025-11-03T23:32:20.031Z"
+  },
+  "status": "Completed",
+  "methodology": {
+    "platform": "Illumina NovaSeq 6000",
+    "library_prep": "TruSeq Stranded mRNA",
+    "sequencing_params": {
+      "read_length": 150,
+      "coverage": "50X",
+      "quality_control": {
+        "q30_percentage": 92.5,
+        "adapter_contamination": 0.1,
+        "duplication_rate": 12.4
+      }
+    }
+  },
+  "researcher_id": {
+    "$oid": "691f60b2c55c72ba0832e9b3"
+  },
+  "sample_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832e9f3"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832e9f7"
+    }
+  ],
+  "publication_ids": [
+    {
+      "$oid": "691f60b2c55c72ba0832ea20"
+    },
+    {
+      "$oid": "691f60b2c55c72ba0832ea23"
+    }
+  ],
+  "samples": {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f7"
+    },
+    "sample_id": "SMP_042",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6003",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-08-21T20:38:07.770Z"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 47,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2021-09-16T22:40:01.002Z"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.2,
+        "concentration": 92,
+        "quality_metrics": {
+          "a260_280": 2,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea18"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      }
+    ]
+  },
+  "genes_detected": [
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e98b"
+      },
+      "gene_id": "ENSG00000232810",
+      "symbol": "TNF",
+      "name": "Tumor Necrosis Factor",
+      "expression_data": {
+        "avg_tpm": 134.94,
+        "tissues": [
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 165.33,
+            "conditions": {
+              "normal": 32.04,
+              "tumor": 316.43,
+              "statistics": {
+                "fold_change": 8.35,
+                "p_value": 0.028894483202688587,
+                "adjusted_p_value": 0.019707487329221958
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:3215663",
+          "GO:2964067",
+          "GO:3353722"
+        ],
+        "pathways": [
+          "KEGG:33202"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "ACTB",
+            "ACTB"
+          ],
+          "network_properties": {
+            "degree": 65,
+            "betweenness": 0.6555080333785537,
+            "clustering_coefficient": 0.2882959611915731
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f7"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ff"
+        }
+      ],
+      "publication_ids": []
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      "gene_id": "ENSG00000136244",
+      "symbol": "IL6",
+      "name": "Interleukin 6",
+      "expression_data": {
+        "avg_tpm": 881.82,
+        "tissues": [
+          {
+            "tissue_type": "Brain - Cortex",
+            "tpm": 293.29,
+            "conditions": {
+              "normal": 22.09,
+              "tumor": 384.84,
+              "statistics": {
+                "fold_change": 4.76,
+                "p_value": 0.014901229546599646,
+                "adjusted_p_value": 0.00613275368700027
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:0803678",
+          "GO:8787892",
+          "GO:6740345"
+        ],
+        "pathways": [
+          "KEGG:55756"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "VEGFA",
+            "KRAS"
+          ],
+          "network_properties": {
+            "degree": 4,
+            "betweenness": 0.41352569734588684,
+            "clustering_coefficient": 0.5066008818793377
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9ce"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9d2"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9d3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e2"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e7"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9eb"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f7"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fa"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9fc"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea1c"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea27"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      "gene_id": "ENSG01077324251",
+      "symbol": "LGS#",
+      "name": "Estrogen Receptor 1",
+      "expression_data": {
+        "avg_tpm": 720.52,
+        "tissues": [
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 333.87,
+            "conditions": {
+              "normal": 34.77,
+              "tumor": 401.99,
+              "statistics": {
+                "fold_change": 5.53,
+                "p_value": 0.03451131859357834,
+                "adjusted_p_value": 0.026887218448254858
+              }
+            }
+          },
+          {
+            "tissue_type": "Lung",
+            "tpm": 114.42,
+            "conditions": {
+              "normal": 22.03,
+              "tumor": 207.85,
+              "statistics": {
+                "fold_change": 4.66,
+                "p_value": 0.007751916243821268,
+                "adjusted_p_value": 0.0003150494307677579
+              }
+            }
+          },
+          {
+            "tissue_type": "Brain - Cortex",
+            "tpm": 478.35,
+            "conditions": {
+              "normal": 15.48,
+              "tumor": 439.52,
+              "statistics": {
+                "fold_change": 1.76,
+                "p_value": 0.02809932651338919,
+                "adjusted_p_value": 0.027259311202132017
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:7521142",
+          "GO:7617923",
+          "GO:5685382"
+        ],
+        "pathways": [
+          "KEGG:75437"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "KRAS",
+            "VEGFA"
+          ],
+          "network_properties": {
+            "degree": 81,
+            "betweenness": 0.5622287498579847,
+            "clustering_coefficient": 0.8783674985918515
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9d3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9d8"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9eb"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f3"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f4"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f7"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea19"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832ea1d"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      "gene_id": "ENSG14996028354",
+      "symbol": "QOY#",
+      "name": "AKT Serine/Threonine Kinase 1",
+      "expression_data": {
+        "avg_tpm": 609.17,
+        "tissues": [
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 306.32,
+            "conditions": {
+              "normal": 42.03,
+              "tumor": 100.67,
+              "statistics": {
+                "fold_change": 4.33,
+                "p_value": 0.030794913183103352,
+                "adjusted_p_value": 0.01851900929592667
+              }
+            }
+          },
+          {
+            "tissue_type": "Breast Mammary Tissue",
+            "tpm": 460.37,
+            "conditions": {
+              "normal": 20.2,
+              "tumor": 481.29,
+              "statistics": {
+                "fold_change": 3.67,
+                "p_value": 0.007463757565524795,
+                "adjusted_p_value": 0.02961053914413952
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:6738322",
+          "GO:5961448",
+          "GO:0286634"
+        ],
+        "pathways": [
+          "KEGG:06622"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "BRCA1",
+            "EGFR"
+          ],
+          "network_properties": {
+            "degree": 43,
+            "betweenness": 0.48929423492847846,
+            "clustering_coefficient": 0.9636675583597164
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9e2"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e5"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e6"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ee"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ef"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f2"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f7"
+        }
+      ],
+      "publication_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832ea21"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "691f60b2c55c72ba0832e996"
+      },
+      "gene_id": "ENSG82746977510",
+      "symbol": "KJP#",
+      "name": "KRAS Proto-Oncogene, GTPase",
+      "expression_data": {
+        "avg_tpm": 291.81,
+        "tissues": [
+          {
+            "tissue_type": "Lung",
+            "tpm": 26.04,
+            "conditions": {
+              "normal": 35.76,
+              "tumor": 449.96,
+              "statistics": {
+                "fold_change": 2.83,
+                "p_value": 0.040864264636062825,
+                "adjusted_p_value": 0.005617394369915817
+              }
+            }
+          }
+        ]
+      },
+      "functional_annotation": {
+        "go_terms": [
+          "GO:9692946",
+          "GO:2307837",
+          "GO:5038404"
+        ],
+        "pathways": [
+          "KEGG:05149"
+        ],
+        "interactions": {
+          "protein_interactions": [
+            "APOE",
+            "AKT1"
+          ],
+          "network_properties": {
+            "degree": 22,
+            "betweenness": 0.01452975010003843,
+            "clustering_coefficient": 0.5545262098620528
+          }
+        }
+      },
+      "variants": [],
+      "sample_ids": [
+        {
+          "$oid": "691f60b2c55c72ba0832e9ce"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9db"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9e5"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9ee"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f0"
+        },
+        {
+          "$oid": "691f60b2c55c72ba0832e9f7"
+        }
+      ],
+      "publication_ids": []
+    }
+  ]
+}]
