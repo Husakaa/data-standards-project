@@ -1,0 +1,3463 @@
+[
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9ce"
+    },
+    "sample_id": "SMP_001",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_3450",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-06-25T17:32:13.241602"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 53,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2022-02-02T11:30:54.553191"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.5,
+        "concentration": 122,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0a"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9cf"
+    },
+    "sample_id": "SMP_002",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6865",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-08-04T04:53:51.998099"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 50,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2020-04-16T20:16:34.463217"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.3,
+        "concentration": 271,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e987"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a5"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d0"
+    },
+    "sample_id": "SMP_003",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6670",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-09-01T08:20:55.012608"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 21,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-08-24T13:25:12.642589"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.8,
+        "concentration": 238,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea17"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e982"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d1"
+    },
+    "sample_id": "SMP_004",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_2076",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-09-18T04:08:57.768034"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 56,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2019-04-18T08:23:46.168290"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.4,
+        "concentration": 245,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea06"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e981"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d2"
+    },
+    "sample_id": "SMP_005",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_5537",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-03-03T20:25:40.663601"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 15,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2021-02-12T16:25:18.902231"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.8,
+        "concentration": 128,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea04"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea07"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e981"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e989"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d3"
+    },
+    "sample_id": "SMP_006",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1523",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-05-20T18:07:29.596274"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 43,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-06-21T22:55:03.553770"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.0,
+        "concentration": 309,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea01"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea12"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a4"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d4"
+    },
+    "sample_id": "SMP_007",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1426",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-11-05T23:38:05.322597"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 61,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-06-11T21:00:59.550305"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.7,
+        "concentration": 427,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0e"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e997"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ac"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d5"
+    },
+    "sample_id": "SMP_008",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6247",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2018-08-13T23:20:50.182286"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 85,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2022-11-03T21:45:50.454261"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.3,
+        "concentration": 378,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e983"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e985"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d6"
+    },
+    "sample_id": "SMP_009",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_9223",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-06-04T01:04:07.693620"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 36,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-03-30T18:39:40.784060"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.3,
+        "concentration": 168,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e992"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a0"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d7"
+    },
+    "sample_id": "SMP_010",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_8024",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-09-27T04:56:11.153925"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 68,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2024-12-07T05:41:18.568342"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.3,
+        "concentration": 212,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea02"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea14"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e984"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a4"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d8"
+    },
+    "sample_id": "SMP_011",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_5418",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-10-18T20:08:44.210363"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 56,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-09-24T21:32:28.305609"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.5,
+        "concentration": 73,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea16"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea17"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e997"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9d9"
+    },
+    "sample_id": "SMP_012",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_5802",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2023-12-16T20:43:17.244942"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 68,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2024-10-06T10:22:43.277563"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.2,
+        "concentration": 157,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e97f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a8"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9da"
+    },
+    "sample_id": "SMP_013",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6105",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2023-04-13T14:29:14.296584"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 30,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2021-08-14T00:21:36.173242"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.6,
+        "concentration": 361,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea06"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea13"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e991"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9db"
+    },
+    "sample_id": "SMP_014",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_5504",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-04-23T12:17:09.898235"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 48,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-06-03T07:53:07.118055"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.1,
+        "concentration": 177,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea10"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e983"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e997"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a3"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9dc"
+    },
+    "sample_id": "SMP_015",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_2128",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-12-27T06:02:48.690304"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 27,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2025-09-22T09:05:33.917877"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.6,
+        "concentration": 130,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea05"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea09"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0e"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9aa"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e987"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9dd"
+    },
+    "sample_id": "SMP_016",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6200",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-08-17T20:33:31.008706"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 52,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2020-06-10T23:51:48.704374"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.1,
+        "concentration": 102,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ac"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9de"
+    },
+    "sample_id": "SMP_017",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1307",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-10-02T00:44:17.110965"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 84,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2022-03-10T10:21:27.065905"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.9,
+        "concentration": 157,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea15"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea18"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a5"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e983"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9df"
+    },
+    "sample_id": "SMP_018",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_9049",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2025-05-03T00:22:32.688676"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 19,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2020-08-03T11:12:03.471718"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.9,
+        "concentration": 279,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea08"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea15"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99b"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e0"
+    },
+    "sample_id": "SMP_019",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_0090",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-09-21T02:47:38.208335"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 71,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2019-08-09T16:51:04.273927"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.8,
+        "concentration": 96,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e1"
+    },
+    "sample_id": "SMP_020",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6285",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-02-15T07:14:33.064672"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 19,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-11-17T16:13:23.386583"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.4,
+        "concentration": 255,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e97f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e980"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a4"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a5"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e2"
+    },
+    "sample_id": "SMP_021",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_7780",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2023-06-24T00:52:20.196481"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 21,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-06-16T15:28:55.406032"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.9,
+        "concentration": 297,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e988"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e3"
+    },
+    "sample_id": "SMP_022",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_8248",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2023-11-22T01:14:43.361429"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 12,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2019-09-25T19:45:58.402666"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.2,
+        "concentration": 178,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea11"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e991"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e989"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e982"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e4"
+    },
+    "sample_id": "SMP_023",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_3684",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-02-25T21:49:41.047148"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 86,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2021-05-01T23:23:25.793534"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.9,
+        "concentration": 100,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e986"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9aa"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e5"
+    },
+    "sample_id": "SMP_024",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_7132",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2025-10-24T06:36:06.796453"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 59,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-06-06T17:39:32.511886"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.2,
+        "concentration": 168,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a4"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ac"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e6"
+    },
+    "sample_id": "SMP_025",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_8005",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2018-12-30T09:12:52.911841"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 76,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-04-26T14:01:30.979175"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.3,
+        "concentration": 358,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea12"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea15"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e981"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e986"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e7"
+    },
+    "sample_id": "SMP_026",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_5515",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-01-06T19:41:22.733129"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 86,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2024-02-25T05:13:01.912455"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.6,
+        "concentration": 140,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea02"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea06"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0e"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e991"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e8"
+    },
+    "sample_id": "SMP_027",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_8741",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2019-09-28T09:03:02.169462"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 18,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2024-02-08T10:44:18.812257"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.7,
+        "concentration": 189,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea13"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9e9"
+    },
+    "sample_id": "SMP_028",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_7183",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-11-27T21:45:45.708483"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 48,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-02-01T14:42:09.378514"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.3,
+        "concentration": 337,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea01"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0a"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a5"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e983"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9ea"
+    },
+    "sample_id": "SMP_029",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_7317",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2023-06-13T22:33:52.120879"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 69,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2020-02-21T21:49:37.054221"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.7,
+        "concentration": 81,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea08"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea10"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e989"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9eb"
+    },
+    "sample_id": "SMP_030",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_7943",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2025-11-08T16:23:04.966520"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 21,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-11-25T06:53:32.833314"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.4,
+        "concentration": 398,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea05"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea09"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea12"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea14"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9ec"
+    },
+    "sample_id": "SMP_031",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1611",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-10-27T08:38:07.166230"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 27,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-03-01T04:22:35.809265"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.6,
+        "concentration": 434,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea04"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea16"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e992"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e984"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9ed"
+    },
+    "sample_id": "SMP_032",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_5294",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2019-09-28T04:57:43.301557"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 75,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-04-22T01:03:03.646155"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.7,
+        "concentration": 272,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0d"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e991"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a1"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9ee"
+    },
+    "sample_id": "SMP_033",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1145",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-08-04T11:54:40.163837"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 58,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-06-06T12:03:05.314093"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.3,
+        "concentration": 184,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea09"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0d"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e986"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9ef"
+    },
+    "sample_id": "SMP_034",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_4358",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-11-02T17:53:07.589959"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 36,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2019-10-31T18:08:29.720493"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.1,
+        "concentration": 147,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea05"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f0"
+    },
+    "sample_id": "SMP_035",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_7851",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-12-06T14:48:52.775325"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 22,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-11-12T17:14:17.080253"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.1,
+        "concentration": 67,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea03"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ac"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e983"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e987"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f1"
+    },
+    "sample_id": "SMP_036",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_2636",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-06-05T19:14:25.565088"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 58,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2025-07-23T05:14:04.274539"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.5,
+        "concentration": 328,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a4"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f2"
+    },
+    "sample_id": "SMP_037",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_7773",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2019-09-22T22:52:19.333509"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 28,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2025-07-01T08:39:39.528593"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.0,
+        "concentration": 66,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea01"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea03"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea16"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f3"
+    },
+    "sample_id": "SMP_038",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1715",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-09-16T13:34:43.126774"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 10,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-12-04T09:24:21.726865"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.9,
+        "concentration": 90,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea11"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f4"
+    },
+    "sample_id": "SMP_039",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1463",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-04-27T08:40:58.280795"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 49,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2019-09-10T06:50:37.459556"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.5,
+        "concentration": 332,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e988"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9aa"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f5"
+    },
+    "sample_id": "SMP_040",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_0205",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-06-25T15:17:10.151716"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 68,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2025-08-15T00:46:47.361034"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.9,
+        "concentration": 151,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea18"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ac"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e981"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e982"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f6"
+    },
+    "sample_id": "SMP_041",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_3656",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2018-10-03T05:12:03.512417"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 52,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-10-27T21:29:44.745828"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.0,
+        "concentration": 177,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea08"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea13"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f7"
+    },
+    "sample_id": "SMP_042",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_6003",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "I",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-08-21T22:38:07.770679"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 47,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2021-09-17T00:40:01.002306"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.2,
+        "concentration": 92,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea18"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e996"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f8"
+    },
+    "sample_id": "SMP_043",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_2660",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "III",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2021-09-17T18:11:23.448718"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 81,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-08-09T13:06:00.587978"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.0,
+        "concentration": 460,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea02"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea07"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea10"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea11"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e982"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a8"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9f9"
+    },
+    "sample_id": "SMP_044",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_4960",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2020-11-12T14:55:28.077246"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 69,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2024-07-22T13:37:47.562284"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.5,
+        "concentration": 411,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e982"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e989"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e980"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9fa"
+    },
+    "sample_id": "SMP_045",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_0648",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-10-16T08:46:44.523669"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 82,
+            "her2": "-"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2018-09-17T04:44:53.984047"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.9,
+        "concentration": 217,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea14"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e998"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9fb"
+    },
+    "sample_id": "SMP_046",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_4600",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2019-09-09T13:04:12.727760"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 50,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2019-05-25T13:35:46.257860"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 9.3,
+        "concentration": 479,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea03"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0a"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e990"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e980"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e981"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a0"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9fc"
+    },
+    "sample_id": "SMP_047",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_3052",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Doxorubicin",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2024-01-21T13:21:14.702597"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 72,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2022-03-06T08:23:28.536825"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.9,
+        "concentration": 66,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e984"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9fd"
+    },
+    "sample_id": "SMP_048",
+    "source": "Normal Tissue",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_0113",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IV",
+      "treatment": {
+        "therapy_type": "Immunotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Doxorubicin"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2023-11-05T10:36:43.244645"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 12,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2020-06-16T16:06:58.612137"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.3,
+        "concentration": 296,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e982"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e999"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9fe"
+    },
+    "sample_id": "SMP_049",
+    "source": "Blood Plasma",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_1088",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIB",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Paclitaxel",
+          "Tamoxifen"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2019-05-29T20:49:31.953127"
+          },
+          "status": "Responder",
+          "biomarkers": {
+            "ki67": 89,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-10-15T10:40:18.247092"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 8.8,
+        "concentration": 278,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea07"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea17"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9aa"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e997"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e991"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9ff"
+    },
+    "sample_id": "SMP_050",
+    "source": "Tumor Biopsy",
+    "organism": "Homo sapiens",
+    "clinical_data": {
+      "patient_id": "PAT_8074",
+      "diagnosis": "Invasive Ductal Carcinoma",
+      "stage": "IIA",
+      "treatment": {
+        "therapy_type": "Chemotherapy",
+        "drugs": [
+          "Tamoxifen",
+          "Paclitaxel"
+        ],
+        "response": {
+          "evaluation_date": {
+            "$date": "2022-08-01T13:03:33.048897"
+          },
+          "status": "Non-Responder",
+          "biomarkers": {
+            "ki67": 17,
+            "her2": "+"
+          }
+        }
+      }
+    },
+    "processing": {
+      "collection_date": {
+        "$date": "2023-05-16T16:56:29.738789"
+      },
+      "storage_conditions": "-80C",
+      "rna_extraction": {
+        "method": "TRIzol",
+        "rin_score": 7.5,
+        "concentration": 419,
+        "quality_metrics": {
+          "a260_280": 2.0,
+          "a260_230": 2.1,
+          "integrity_assessment": "Good"
+        }
+      }
+    },
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea04"
+      }
+    ],
+    "genes_detected": [
+      {
+        "$oid": "691f60b2c55c72ba0832e983"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e97e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      }
+    ]
+  }
+]

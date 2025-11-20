@@ -1,0 +1,1108 @@
+[
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea00"
+    },
+    "experiment_id": "EXP_001",
+    "title": "RNA-Seq analysis of lead cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2025-11-04T00:32:20.031906"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b3"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9f3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e4"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f7"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea20"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea23"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea01"
+    },
+    "experiment_id": "EXP_002",
+    "title": "RNA-Seq analysis of ball cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2021-08-29T18:37:49.634672"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b2"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9e9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9d3"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea02"
+    },
+    "experiment_id": "EXP_003",
+    "title": "RNA-Seq analysis of together cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-01-07T03:00:54.680560"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b4"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9d7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f8"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea19"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea03"
+    },
+    "experiment_id": "EXP_004",
+    "title": "RNA-Seq analysis of night cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2023-02-15T06:11:30.039914"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b8"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9fb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f0"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea04"
+    },
+    "experiment_id": "EXP_005",
+    "title": "RNA-Seq analysis of site cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2018-02-03T14:51:09.260419"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9c8"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9d2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ec"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ff"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea05"
+    },
+    "experiment_id": "EXP_006",
+    "title": "RNA-Seq analysis of commercial cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-10-01T18:37:15.407370"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9cb"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9eb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ef"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9dc"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea19"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea20"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea06"
+    },
+    "experiment_id": "EXP_007",
+    "title": "RNA-Seq analysis of type cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2022-03-28T23:45:19.317679"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9be"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9da"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9d1"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea07"
+    },
+    "experiment_id": "EXP_008",
+    "title": "RNA-Seq analysis of happen cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-01-02T19:23:31.233324"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b2"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9d2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9fe"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f8"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea08"
+    },
+    "experiment_id": "EXP_009",
+    "title": "RNA-Seq analysis of study cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2023-12-23T01:19:08.312180"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9bd"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ea"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9df"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea09"
+    },
+    "experiment_id": "EXP_010",
+    "title": "RNA-Seq analysis of minute cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2021-05-20T06:15:12.006736"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9c8"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9eb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ee"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9dc"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea23"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea24"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea0a"
+    },
+    "experiment_id": "EXP_011",
+    "title": "RNA-Seq analysis of paper cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2023-03-06T14:13:14.384172"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9bb"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ce"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9fb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e9"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea25"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea27"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea0b"
+    },
+    "experiment_id": "EXP_012",
+    "title": "RNA-Seq analysis of way cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-11-27T03:40:50.928543"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b1"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9de"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9da"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea21"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea0c"
+    },
+    "experiment_id": "EXP_013",
+    "title": "RNA-Seq analysis of think cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2024-02-02T00:16:49.068054"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9ca"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9e6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f7"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea0d"
+    },
+    "experiment_id": "EXP_014",
+    "title": "RNA-Seq analysis of agreement cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2023-10-19T19:47:57.787037"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9bc"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ee"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ed"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e6"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea0e"
+    },
+    "experiment_id": "EXP_015",
+    "title": "RNA-Seq analysis of blood cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2022-04-02T19:51:40.535132"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9c7"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9e7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9d4"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9dc"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea0f"
+    },
+    "experiment_id": "EXP_016",
+    "title": "RNA-Seq analysis of behind cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-10-24T20:23:32.268571"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9cc"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9d0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9da"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e8"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea10"
+    },
+    "experiment_id": "EXP_017",
+    "title": "RNA-Seq analysis of since cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2020-11-30T19:45:53.485830"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9ba"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9f8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ea"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9db"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea21"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea24"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea11"
+    },
+    "experiment_id": "EXP_018",
+    "title": "RNA-Seq analysis of purpose cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-01-18T11:55:54.313318"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9c0"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9e3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f8"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea22"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea12"
+    },
+    "experiment_id": "EXP_019",
+    "title": "RNA-Seq analysis of million cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-04-23T16:43:00.600586"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9cc"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9d3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9eb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e6"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea13"
+    },
+    "experiment_id": "EXP_020",
+    "title": "RNA-Seq analysis of spend cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2023-06-01T03:54:05.498917"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9c5"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9f6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9da"
+      }
+    ],
+    "publication_ids": []
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea14"
+    },
+    "experiment_id": "EXP_021",
+    "title": "RNA-Seq analysis of responsibility cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2021-06-09T12:23:51.654064"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b1"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9eb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9fa"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9d7"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea25"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea15"
+    },
+    "experiment_id": "EXP_022",
+    "title": "RNA-Seq analysis of music cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2019-11-05T13:23:37.100477"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9c9"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9df"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9e6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9de"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea1e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea1f"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea16"
+    },
+    "experiment_id": "EXP_023",
+    "title": "RNA-Seq analysis of door cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2024-10-14T07:30:18.552088"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9c7"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9ec"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9d8"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea26"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea27"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea17"
+    },
+    "experiment_id": "EXP_024",
+    "title": "RNA-Seq analysis of couple cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2024-09-08T16:58:22.036355"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9b7"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9d0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9fe"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9d8"
+      }
+    ],
+    "publication_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea1c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea22"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea26"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea18"
+    },
+    "experiment_id": "EXP_025",
+    "title": "RNA-Seq analysis of different cells",
+    "type": "RNA-Seq",
+    "date": {
+      "$date": "2024-01-15T16:31:55.700771"
+    },
+    "status": "Completed",
+    "methodology": {
+      "platform": "Illumina NovaSeq 6000",
+      "library_prep": "TruSeq Stranded mRNA",
+      "sequencing_params": {
+        "read_length": 150,
+        "coverage": "50X",
+        "quality_control": {
+          "q30_percentage": 92.5,
+          "adapter_contamination": 0.1,
+          "duplication_rate": 12.4
+        }
+      }
+    },
+    "researcher_id": {
+      "$oid": "691f60b2c55c72ba0832e9ba"
+    },
+    "sample_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9f5"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9f7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9de"
+      }
+    ],
+    "publication_ids": []
+  }
+]

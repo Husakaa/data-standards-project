@@ -1,0 +1,1097 @@
+[
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea19"
+    },
+    "pmid": "11496867",
+    "doi": "10.1038/qtum.6312",
+    "title": "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "publication_details": {
+      "journal": "PLOS Computational Biology",
+      "year": 2023,
+      "metrics": {
+        "impact_factor": 4.767,
+        "citations": 1112,
+        "altmetrics": {
+          "news_mentions": 20,
+          "twitter_mentions": 90,
+          "attention_score": 109
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of LGS# and GBQ# in cancer progression. We found that LGS# expression is significantly correlated with patient survival (p=0.0039). Furthermore, GBQ# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "plan",
+        "still",
+        "various",
+        "not",
+        "decision"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE48710"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9bd"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c3"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea02"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea05"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99f"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ac"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1a"
+    },
+    "pmid": "18343830",
+    "doi": "10.1038/SXMD.3267",
+    "title": "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression",
+    "publication_details": {
+      "journal": "Cell",
+      "year": 2022,
+      "metrics": {
+        "impact_factor": 66.85,
+        "citations": 83,
+        "altmetrics": {
+          "news_mentions": 30,
+          "twitter_mentions": 600,
+          "attention_score": 61
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of TKL# and FPU# in cancer progression. We found that TKL# expression is significantly correlated with patient survival (p=0.0068). Furthermore, FPU# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "commercial",
+        "which",
+        "wife",
+        "today",
+        "between"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE67841"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9b9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9cd"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b1"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea11"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea06"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e981"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a5"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1b"
+    },
+    "pmid": "23018508",
+    "doi": "10.1038/Fkis.1880",
+    "title": "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+    "publication_details": {
+      "journal": "Cell",
+      "year": 2023,
+      "metrics": {
+        "impact_factor": 66.85,
+        "citations": 1473,
+        "altmetrics": {
+          "news_mentions": 3,
+          "twitter_mentions": 160,
+          "attention_score": 78
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed integrative analysis combined with RNA-sequencing data to investigate the role of VMN# and TP53 in drug resistance. We found that VMN# expression is significantly correlated with patient survival (p=0.0400). Furthermore, TP53 shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "live",
+        "place",
+        "form",
+        "month",
+        "begin"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE48375"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9b0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9cc"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea14"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e97e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e980"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1c"
+    },
+    "pmid": "25175546",
+    "doi": "10.1038/uIvG.0928",
+    "title": "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "publication_details": {
+      "journal": "Science",
+      "year": 2021,
+      "metrics": {
+        "impact_factor": 63.714,
+        "citations": 672,
+        "altmetrics": {
+          "news_mentions": 18,
+          "twitter_mentions": 135,
+          "attention_score": 134
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of IL6 and UBV# in cancer progression. We found that IL6 expression is significantly correlated with patient survival (p=0.0319). Furthermore, UBV# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "phone",
+        "say",
+        "through",
+        "water",
+        "make"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE37273"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c9"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9cb"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea15"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea17"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e987"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1d"
+    },
+    "pmid": "03553329",
+    "doi": "10.1038/iEbE.0873",
+    "title": "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression",
+    "publication_details": {
+      "journal": "Bioinformatics",
+      "year": 2021,
+      "metrics": {
+        "impact_factor": 6.937,
+        "citations": 685,
+        "altmetrics": {
+          "news_mentions": 25,
+          "twitter_mentions": 280,
+          "attention_score": 130
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed integrative analysis combined with RNA-sequencing data to investigate the role of AKT1 and UIE# in cancer progression. We found that AKT1 expression is significantly correlated with patient survival (p=0.0105). Furthermore, UIE# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "lawyer",
+        "notice",
+        "something",
+        "serve",
+        "take"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE82027"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b3"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c2"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea04"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0e"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e985"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e993"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99c"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1e"
+    },
+    "pmid": "46632882",
+    "doi": "10.1038/MCgh.4852",
+    "title": "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+    "publication_details": {
+      "journal": "Nature",
+      "year": 2023,
+      "metrics": {
+        "impact_factor": 69.504,
+        "citations": 383,
+        "altmetrics": {
+          "news_mentions": 27,
+          "twitter_mentions": 242,
+          "attention_score": 79
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of VMN# and PTEN in cancer progression. We found that VMN# expression is significantly correlated with patient survival (p=0.0251). Furthermore, PTEN shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "very",
+        "heavy",
+        "four",
+        "issue",
+        "threat"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE88479"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9b2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9bc"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c0"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea15"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea09"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e988"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99b"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1f"
+    },
+    "pmid": "61113801",
+    "doi": "10.1038/rejO.4336",
+    "title": "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "publication_details": {
+      "journal": "Science",
+      "year": 2024,
+      "metrics": {
+        "impact_factor": 63.714,
+        "citations": 889,
+        "altmetrics": {
+          "news_mentions": 6,
+          "twitter_mentions": 569,
+          "attention_score": 91
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of WGE# and ZLK# in drug resistance. We found that WGE# expression is significantly correlated with patient survival (p=0.0231). Furthermore, ZLK# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "with",
+        "item",
+        "third",
+        "rest",
+        "believe"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE95087"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9bf"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ba"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9be"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea03"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea15"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e98d"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea20"
+    },
+    "pmid": "17550106",
+    "doi": "10.1038/hMtm.2792",
+    "title": "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "publication_details": {
+      "journal": "Cell",
+      "year": 2021,
+      "metrics": {
+        "impact_factor": 66.85,
+        "citations": 794,
+        "altmetrics": {
+          "news_mentions": 21,
+          "twitter_mentions": 297,
+          "attention_score": 76
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of ZLK# and MYC in cancer progression. We found that ZLK# expression is significantly correlated with patient survival (p=0.0101). Furthermore, MYC shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "look",
+        "structure",
+        "line",
+        "light",
+        "character"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE65431"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9bd"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b5"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b1"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c4"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea05"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e986"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a6"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea21"
+    },
+    "pmid": "42686166",
+    "doi": "10.1038/fqWg.0884",
+    "title": "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression",
+    "publication_details": {
+      "journal": "Nature Genetics",
+      "year": 2021,
+      "metrics": {
+        "impact_factor": 41.307,
+        "citations": 95,
+        "altmetrics": {
+          "news_mentions": 30,
+          "twitter_mentions": 333,
+          "attention_score": 109
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of QOY# and APOE in cancer progression. We found that QOY# expression is significantly correlated with patient survival (p=0.0157). Furthermore, APOE shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "strategy",
+        "city",
+        "anyone",
+        "turn",
+        "voice"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE26451"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9bc"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9cb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c2"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea10"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0b"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e983"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e994"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a9"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea22"
+    },
+    "pmid": "17552142",
+    "doi": "10.1038/EGLq.9752",
+    "title": "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression",
+    "publication_details": {
+      "journal": "Cell",
+      "year": 2024,
+      "metrics": {
+        "impact_factor": 66.85,
+        "citations": 902,
+        "altmetrics": {
+          "news_mentions": 30,
+          "twitter_mentions": 418,
+          "attention_score": 140
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of LJE# and ZHM# in cancer progression. We found that LJE# expression is significantly correlated with patient survival (p=0.0201). Furthermore, ZHM# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "chance",
+        "accept",
+        "whole",
+        "whether",
+        "blue"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE36712"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b0"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b3"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea17"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea11"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e982"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9af"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea23"
+    },
+    "pmid": "11045169",
+    "doi": "10.1038/AVlv.8433",
+    "title": "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "publication_details": {
+      "journal": "Nucleic Acids Research",
+      "year": 2021,
+      "metrics": {
+        "impact_factor": 19.16,
+        "citations": 1231,
+        "altmetrics": {
+          "news_mentions": 8,
+          "twitter_mentions": 391,
+          "attention_score": 73
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of WGE# and QUR# in drug resistance. We found that WGE# expression is significantly correlated with patient survival (p=0.0322). Furthermore, QUR# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "stage",
+        "sure",
+        "national",
+        "establish",
+        "clearly"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE81867"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c4"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ca"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9bc"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ba"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea00"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea09"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e99a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea24"
+    },
+    "pmid": "77397091",
+    "doi": "10.1038/QcqE.1920",
+    "title": "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance",
+    "publication_details": {
+      "journal": "Nucleic Acids Research",
+      "year": 2022,
+      "metrics": {
+        "impact_factor": 19.16,
+        "citations": 1110,
+        "altmetrics": {
+          "news_mentions": 11,
+          "twitter_mentions": 498,
+          "attention_score": 89
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed integrative analysis combined with RNA-sequencing data to investigate the role of FQM# and YGG# in drug resistance. We found that FQM# expression is significantly correlated with patient survival (p=0.0348). Furthermore, YGG# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "question",
+        "claim",
+        "join",
+        "value",
+        "something"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE10921"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c5"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9cb"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b2"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea10"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea09"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9aa"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ab"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9ad"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea25"
+    },
+    "pmid": "23102219",
+    "doi": "10.1038/XsSE.8048",
+    "title": "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+    "publication_details": {
+      "journal": "Nature",
+      "year": 2022,
+      "metrics": {
+        "impact_factor": 69.504,
+        "citations": 59,
+        "altmetrics": {
+          "news_mentions": 27,
+          "twitter_mentions": 593,
+          "attention_score": 18
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of GAPDH and QUR# in drug resistance. We found that GAPDH expression is significantly correlated with patient survival (p=0.0142). Furthermore, QUR# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "take",
+        "foot",
+        "Democrat",
+        "scientist",
+        "study"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE32272"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9b7"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9be"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b3"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea14"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea0a"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e989"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98e"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9a2"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea26"
+    },
+    "pmid": "17185075",
+    "doi": "10.1038/Cpji.9485",
+    "title": "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance",
+    "publication_details": {
+      "journal": "Bioinformatics",
+      "year": 2022,
+      "metrics": {
+        "impact_factor": 6.937,
+        "citations": 1120,
+        "altmetrics": {
+          "news_mentions": 28,
+          "twitter_mentions": 311,
+          "attention_score": 66
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed machine learning combined with RNA-sequencing data to investigate the role of ZLK# and TKL# in drug resistance. We found that ZLK# expression is significantly correlated with patient survival (p=0.0151). Furthermore, TKL# shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "talk",
+        "book",
+        "look",
+        "alone",
+        "matter"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE86861"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9c8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9be"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b6"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9c3"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea16"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea17"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e986"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e995"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99d"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea27"
+    },
+    "pmid": "11235707",
+    "doi": "10.1038/xFNa.6209",
+    "title": "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance",
+    "publication_details": {
+      "journal": "Nature Genetics",
+      "year": 2024,
+      "metrics": {
+        "impact_factor": 41.307,
+        "citations": 369,
+        "altmetrics": {
+          "news_mentions": 28,
+          "twitter_mentions": 774,
+          "attention_score": 73
+        }
+      }
+    },
+    "content": {
+      "abstract": "This study employed single-cell sequencing combined with RNA-sequencing data to investigate the role of IL6 and GAPDH in drug resistance. We found that IL6 expression is significantly correlated with patient survival (p=0.0256). Furthermore, GAPDH shows promise as a potential biomarker for early detection. Our computational pipeline is available on GitHub/Docker.",
+      "keywords": [
+        "until",
+        "piece",
+        "dog",
+        "serve",
+        "environmental"
+      ],
+      "datasets": {
+        "repositories": [
+          "GEO",
+          "SRA"
+        ],
+        "accessions": {
+          "geo_series": "GSE59588"
+        }
+      }
+    },
+    "researcher_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e9b8"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b2"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b5"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e9b0"
+      }
+    ],
+    "experiment_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832ea0a"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832ea16"
+      }
+    ],
+    "gene_ids": [
+      {
+        "$oid": "691f60b2c55c72ba0832e989"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e98c"
+      },
+      {
+        "$oid": "691f60b2c55c72ba0832e99d"
+      }
+    ]
+  }
+]
