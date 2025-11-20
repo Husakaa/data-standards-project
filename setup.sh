@@ -46,7 +46,7 @@ fi
 # Importante: Se mapea la ruta local DB_DATA_PATH al directorio interno de Mongo (/data/db)
 echo "▶️ Iniciando nuevo contenedor MongoDB (bio_mongo) en localhost:27017 con datos persistentes locales..."
 docker run -d -p 27017:27017 \
-    -v $(pwd)/mongo_data:/data/db \
+    -v "$(pwd)/T1-MongoDB/mongo_data":/data/db \
     --name $CONTAINER_NAME mongo:latest
 
 # --- 3. VERIFICACIÓN FINAL ---
