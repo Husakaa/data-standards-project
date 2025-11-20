@@ -1,0 +1,158 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["sample_id", "source", "organism", "clinical_data", "processing", "experiment_ids", "genes_detected"],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId",
+        "description": "Identificador único de MongoDB"
+      },
+      "sample_id": {
+        "bsonType": "string",
+        "description": "ID único de la muestra (ej: SAMPLE_001)"
+      },
+      "source": {
+        "bsonType": "string",
+        "description": "Fuente biológica de la muestra (ej: tumor tissue, blood)"
+      },
+      "organism": {
+        "bsonType": "string",
+        "description": "Organismo de origen (ej: Homo sapiens)"
+      },
+      "clinical_data": {
+        "bsonType": "object",
+        "description": "Nivel 2: Información clínica del paciente asociada",
+        "required": ["patient_id", "diagnosis", "stage", "treatment"],
+        "properties": {
+          "patient_id": {
+            "bsonType": "string",
+            "description": "ID del paciente"
+          },
+          "diagnosis": {
+            "bsonType": "string",
+            "description": "Diagnóstico principal (ej: Breast cancer)"
+          },
+          "stage": {
+            "bsonType": "string",
+            "description": "Estadio de la enfermedad (ej: III)"
+          },
+          "treatment": {
+            "bsonType": "object",
+            "description": "Nivel 3: Detalles del tratamiento",
+            "required": ["therapy_type", "drugs", "response"],
+            "properties": {
+              "therapy_type": {
+                "bsonType": "string",
+                "description": "Tipo de terapia (ej: chemotherapy)"
+              },
+              "drugs": {
+                "bsonType": "array",
+                "description": "Fármacos administrados",
+                "items": {
+                  "bsonType": "string"
+                }
+              },
+              "response": {
+                "bsonType": "object",
+                "description": "Nivel 4: Respuesta al tratamiento",
+                "required": ["evaluation_date", "status", "biomarkers"],
+                "properties": {
+                  "evaluation_date": {
+                    "bsonType": "date",
+                    "description": "Fecha de evaluación de la respuesta"
+                  },
+                  "status": {
+                    "bsonType": "string",
+                    "enum": ["complete response", "partial response", "stable disease", "progressive disease"],
+                    "description": "Estado de respuesta (ej: partial response)"
+                  },
+                  "biomarkers": {
+                    "bsonType": "object",
+                    "description": "Métricas de biomarcadores clave",
+                    "properties": {
+                      "ki67": {
+                        "bsonType": "int",
+                        "description": "Porcentaje de Ki67"
+                      },
+                      "her2": {
+                        "bsonType": "string",
+                        "description": "Estado de HER2 (ej: negative)"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "processing": {
+        "bsonType": "object",
+        "description": "Nivel 2: Datos de procesamiento y calidad de la muestra",
+        "required": ["collection_date", "storage_conditions", "rna_extraction"],
+        "properties": {
+          "collection_date": {
+            "bsonType": "date",
+            "description": "Fecha de recolección de la muestra"
+          },
+          "storage_conditions": {
+            "bsonType": "string",
+            "description": "Condiciones de almacenamiento (ej: -80°C)"
+          },
+          "rna_extraction": {
+            "bsonType": "object",
+            "description": "Nivel 3: Detalles de la extracción de RNA",
+            "required": ["method", "rin_score", "concentration", "quality_metrics"],
+            "properties": {
+              "method": {
+                "bsonType": "string",
+                "description": "Método de extracción (ej: TRIzol)"
+              },
+              "rin_score": {
+                "bsonType": "double",
+                "description": "Puntuación RIN (RNA Integrity Number)"
+              },
+              "concentration": {
+                "bsonType": "int",
+                "description": "Concentración de RNA en ng/µL"
+              },
+              "quality_metrics": {
+                "bsonType": "object",
+                "description": "Nivel 4: Métricas de calidad de RNA",
+                "required": ["a260_280", "a260_230", "integrity_assessment"],
+                "properties": {
+                  "a260_280": {
+                    "bsonType": "double",
+                    "description": "Relación A260/280"
+                  },
+                  "a260_230": {
+                    "bsonType": "double",
+                    "description": "Relación A260/230"
+                  },
+                  "integrity_assessment": {
+                    "bsonType": "string",
+                    "description": "Evaluación general de la integridad (ej: excellent)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "experiment_ids": {
+        "bsonType": "array",
+        "description": "Referencias a los experimentos donde se ha utilizado esta muestra → colección experiments",
+        "items": {
+          "bsonType": "objectId"
+        }
+      },
+      "genes_detected": {
+        "bsonType": "array",
+        "description": "Referencias a los genes detectados/analizados en esta muestra → colección genes",
+        "items": {
+          "bsonType": "objectId"
+        }
+      }
+    }
+  }
+}

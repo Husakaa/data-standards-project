@@ -1,0 +1,208 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["gene_id", "symbol", "name", "expression_data", "functional_annotation", "variants", "sample_ids", "publication_ids"],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId",
+        "description": "Identificador único de MongoDB"
+      },
+      "gene_id": {
+        "bsonType": "string",
+        "description": "ID de Ensembl o equivalente (ej: ENSG00000139618)"
+      },
+      "symbol": {
+        "bsonType": "string",
+        "description": "Símbolo oficial del gen (ej: BRCA2)"
+      },
+      "name": {
+        "bsonType": "string",
+        "description": "Nombre completo del gen"
+      },
+      "expression_data": {
+        "bsonType": "object",
+        "description": "Nivel 2: Datos de expresión general",
+        "required": ["avg_tpm", "tissues"],
+        "properties": {
+          "avg_tpm": {
+            "bsonType": "double",
+            "description": "Promedio de la expresión en Transcripts Per Million (TPM)"
+          },
+          "tissues": {
+            "bsonType": "array",
+            "description": "Datos de expresión específicos por tejido",
+            "items": {
+              "bsonType": "object",
+              "required": ["tissue_type", "tpm", "conditions"],
+              "properties": {
+                "tissue_type": {
+                  "bsonType": "string",
+                  "description": "Tipo de tejido"
+                },
+                "tpm": {
+                  "bsonType": "double",
+                  "description": "Nivel de TPM en ese tejido"
+                },
+                "conditions": {
+                  "bsonType": "object",
+                  "description": "Nivel 3: Expresión en diferentes condiciones (ej: normal vs. tumor)",
+                  "required": ["normal", "tumor", "statistics"],
+                  "properties": {
+                    "normal": {
+                      "bsonType": "double",
+                      "description": "TPM en condición normal"
+                    },
+                    "tumor": {
+                      "bsonType": "double",
+                      "description": "TPM en condición tumoral"
+                    },
+                    "statistics": {
+                      "bsonType": "object",
+                      "description": "Nivel 4: Estadísticas de expresión diferencial",
+                      "required": ["fold_change", "p_value", "adjusted_p_value"],
+                      "properties": {
+                        "fold_change": {
+                          "bsonType": "double",
+                          "description": "Cambio de pliegue (Fold Change)"
+                        },
+                        "p_value": {
+                          "bsonType": "double",
+                          "description": "Valor P"
+                        },
+                        "adjusted_p_value": {
+                          "bsonType": "double",
+                          "description": "Valor P ajustado"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "functional_annotation": {
+        "bsonType": "object",
+        "description": "Nivel 2: Anotación y contexto funcional",
+        "required": ["go_terms", "pathways", "interactions"],
+        "properties": {
+          "go_terms": {
+            "bsonType": "array",
+            "description": "Términos de Ontología Genética (GO)",
+            "items": {
+              "bsonType": "string"
+            }
+          },
+          "pathways": {
+            "bsonType": "array",
+            "description": "Vías de señalización asociadas (ej: KEGG ID)",
+            "items": {
+              "bsonType": "string"
+            }
+          },
+          "interactions": {
+            "bsonType": "object",
+            "description": "Nivel 3: Interacciones moleculares",
+            "required": ["protein_interactions", "network_properties"],
+            "properties": {
+              "protein_interactions": {
+                "bsonType": "array",
+                "description": "Lista de proteínas con las que interactúa",
+                "items": {
+                  "bsonType": "string"
+                }
+              },
+              "network_properties": {
+                "bsonType": "object",
+                "description": "Nivel 4: Propiedades en redes de interacción",
+                "required": ["degree", "betweenness", "clustering_coefficient"],
+                "properties": {
+                  "degree": {
+                    "bsonType": "int",
+                    "description": "Grado (Degree) en la red"
+                  },
+                  "betweenness": {
+                    "bsonType": "double",
+                    "description": "Centralidad de intermediación (Betweenness)"
+                  },
+                  "clustering_coefficient": {
+                    "bsonType": "double",
+                    "description": "Coeficiente de agrupamiento"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "variants": {
+        "bsonType": "array",
+        "description": "Nivel 2: Lista de variantes genéticas conocidas",
+        "items": {
+          "bsonType": "object",
+          "required": ["variant_id", "type", "consequences"],
+          "properties": {
+            "variant_id": {
+              "bsonType": "string",
+              "description": "ID de la variante (ej: rs80359550)"
+            },
+            "type": {
+              "bsonType": "string",
+              "enum": ["SNP", "Indel", "SV"],
+              "description": "Tipo de variante"
+            },
+            "consequences": {
+              "bsonType": "object",
+              "description": "Nivel 3: Consecuencias funcionales y clínicas",
+              "required": ["impact", "clinical_significance", "predictions"],
+              "properties": {
+                "impact": {
+                  "bsonType": "string",
+                  "enum": ["HIGH", "MODERATE", "LOW", "MODIFIER"],
+                  "description": "Impacto de la variante (ej: HIGH)"
+                },
+                "clinical_significance": {
+                  "bsonType": "string",
+                  "description": "Significancia clínica (ej: pathogenic)"
+                },
+                "predictions": {
+                  "bsonType": "object",
+                  "description": "Nivel 4: Puntuaciones de predicción in silico",
+                  "properties": {
+                    "sift": {
+                      "bsonType": "string",
+                      "description": "Predicción SIFT"
+                    },
+                    "polyphen": {
+                      "bsonType": "string",
+                      "description": "Predicción PolyPhen"
+                    },
+                    "cadd_score": {
+                      "bsonType": "double",
+                      "description": "Puntuación CADD"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "sample_ids": {
+        "bsonType": "array",
+        "description": "Referencias a las muestras donde se ha detectado el gen → colección samples",
+        "items": {
+          "bsonType": "objectId"
+        }
+      },
+      "publication_ids": {
+        "bsonType": "array",
+        "description": "Referencias a publicaciones centradas en este gen → colección publications",
+        "items": {
+          "bsonType": "objectId"
+        }
+      }
+    }
+  }
+}
