@@ -1,0 +1,144 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["pmid", "doi", "title", "publication_details", "content", "researcher_ids", "experiment_ids", "gene_ids"],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId",
+        "description": "Identificador único de MongoDB"
+      },
+      "pmid": {
+        "bsonType": "string",
+        "description": "Identificador de PubMed (ej: 12345678)"
+      },
+      "doi": {
+        "bsonType": "string",
+        "description": "Identificador de Objeto Digital (Digital Object Identifier) (ej: 10.1038/nature12345)"
+      },
+      "title": {
+        "bsonType": "string",
+        "description": "Título completo de la publicación"
+      },
+      "publication_details": {
+        "bsonType": "object",
+        "description": "Nivel 2: Detalles de la publicación y su fuente",
+        "required": ["journal", "year", "metrics"],
+        "properties": {
+          "journal": {
+            "bsonType": "string",
+            "description": "Nombre de la revista o journal (ej: Nature)"
+          },
+          "year": {
+            "bsonType": "int",
+            "description": "Año de publicación"
+          },
+          "metrics": {
+            "bsonType": "object",
+            "description": "Nivel 3: Métricas de impacto y citas",
+            "required": ["impact_factor", "citations", "altmetrics"],
+            "properties": {
+              "impact_factor": {
+                "bsonType": "double",
+                "description": "Factor de impacto de la revista"
+              },
+              "citations": {
+                "bsonType": "int",
+                "description": "Número de citas recibidas"
+              },
+              "altmetrics": {
+                "bsonType": "object",
+                "description": "Nivel 4: Métricas alternativas (Altmetrics)",
+                "required": ["news_mentions", "twitter_mentions", "attention_score"],
+                "properties": {
+                  "news_mentions": {
+                    "bsonType": "int",
+                    "description": "Menciones en noticias"
+                  },
+                  "twitter_mentions": {
+                    "bsonType": "int",
+                    "description": "Menciones en Twitter/X"
+                  },
+                  "attention_score": {
+                    "bsonType": "int",
+                    "description": "Puntuación de atención general"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "content": {
+        "bsonType": "object",
+        "description": "Nivel 2: Contenido científico y datos asociados",
+        "required": ["abstract", "keywords", "datasets"],
+        "properties": {
+          "abstract": {
+            "bsonType": "string",
+            "description": "Resumen (abstract) de la publicación"
+          },
+          "keywords": {
+            "bsonType": "array",
+            "description": "Palabras clave del artículo",
+            "items": {
+              "bsonType": "string"
+            }
+          },
+          "datasets": {
+            "bsonType": "object",
+            "description": "Nivel 3: Repositorios de datos utilizados",
+            "required": ["repositories", "accessions"],
+            "properties": {
+              "repositories": {
+                "bsonType": "array",
+                "description": "Nombres de los repositorios de datos (ej: GEO, SRA)",
+                "items": {
+                  "bsonType": "string"
+                }
+              },
+              "accessions": {
+                "bsonType": "object",
+                "description": "Nivel 4: Identificadores de acceso (Accessions)",
+                "properties": {
+                  "geo_series": {
+                    "bsonType": "string",
+                    "description": "ID de la serie GEO (opcional)"
+                  },
+                  "sra_project": {
+                    "bsonType": "string",
+                    "description": "ID del proyecto SRA (opcional)"
+                  },
+                  "dbgap_study": {
+                    "bsonType": "string",
+                    "description": "ID del estudio dbGaP (opcional)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "researcher_ids": {
+        "bsonType": "array",
+        "description": "Referencias a los autores de la publicación → colección researchers",
+        "items": {
+          "bsonType": "objectId"
+        }
+      },
+      "experiment_ids": {
+        "bsonType": "array",
+        "description": "Referencias a los experimentos que sustentan la publicación → colección experiments",
+        "items": {
+          "bsonType": "objectId"
+        }
+      },
+      "gene_ids": {
+        "bsonType": "array",
+        "description": "Referencias a los genes clave de la publicación → colección genes",
+        "items": {
+          "bsonType": "objectId"
+        }
+      }
+    }
+  }
+}
