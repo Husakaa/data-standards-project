@@ -1,0 +1,285 @@
+[
+  {
+    "_id": "VMN#",
+    "first_seen": 2021,
+    "last_seen": 2023,
+    "years_active": [
+      2021,
+      2022,
+      2023
+    ],
+    "total_pubs": 4
+  },
+  {
+    "_id": "TKL#",
+    "first_seen": 2022,
+    "last_seen": 2024,
+    "years_active": [
+      2024,
+      2022
+    ],
+    "total_pubs": 3
+  },
+  {
+    "_id": "ZLK#",
+    "first_seen": 2021,
+    "last_seen": 2024,
+    "years_active": [
+      2021,
+      2022,
+      2024
+    ],
+    "total_pubs": 3
+  },
+  {
+    "_id": "GAPDH",
+    "first_seen": 2022,
+    "last_seen": 2024,
+    "years_active": [
+      2024,
+      2022
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "LGS#",
+    "first_seen": 2021,
+    "last_seen": 2023,
+    "years_active": [
+      2021,
+      2023
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "WGE#",
+    "first_seen": 2021,
+    "last_seen": 2024,
+    "years_active": [
+      2021,
+      2024
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "MYC",
+    "first_seen": 2021,
+    "last_seen": 2022,
+    "years_active": [
+      2021,
+      2022
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "IL6",
+    "first_seen": 2021,
+    "last_seen": 2024,
+    "years_active": [
+      2021,
+      2024
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "UBV#",
+    "first_seen": 2021,
+    "last_seen": 2024,
+    "years_active": [
+      2021,
+      2024
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "QUR#",
+    "first_seen": 2021,
+    "last_seen": 2022,
+    "years_active": [
+      2021,
+      2022
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "LJE#",
+    "first_seen": 2021,
+    "last_seen": 2024,
+    "years_active": [
+      2021,
+      2024
+    ],
+    "total_pubs": 2
+  },
+  {
+    "_id": "FQM#",
+    "first_seen": 2022,
+    "last_seen": 2022,
+    "years_active": [
+      2022
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "BVD#",
+    "first_seen": 2023,
+    "last_seen": 2023,
+    "years_active": [
+      2023
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "UIE#",
+    "first_seen": 2021,
+    "last_seen": 2021,
+    "years_active": [
+      2021
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "NMT#",
+    "first_seen": 2023,
+    "last_seen": 2023,
+    "years_active": [
+      2023
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "KRAS",
+    "first_seen": 2021,
+    "last_seen": 2021,
+    "years_active": [
+      2021
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "ZHM#",
+    "first_seen": 2024,
+    "last_seen": 2024,
+    "years_active": [
+      2024
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "DGG#",
+    "first_seen": 2022,
+    "last_seen": 2022,
+    "years_active": [
+      2022
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "FPU#",
+    "first_seen": 2022,
+    "last_seen": 2022,
+    "years_active": [
+      2022
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "YGG#",
+    "first_seen": 2022,
+    "last_seen": 2022,
+    "years_active": [
+      2022
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "QOY#",
+    "first_seen": 2021,
+    "last_seen": 2021,
+    "years_active": [
+      2021
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "PTEN",
+    "first_seen": 2023,
+    "last_seen": 2023,
+    "years_active": [
+      2023
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "APOE",
+    "first_seen": 2021,
+    "last_seen": 2021,
+    "years_active": [
+      2021
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "EGFR",
+    "first_seen": 2022,
+    "last_seen": 2022,
+    "years_active": [
+      2022
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "OWG#",
+    "first_seen": 2021,
+    "last_seen": 2021,
+    "years_active": [
+      2021
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "AKT1",
+    "first_seen": 2021,
+    "last_seen": 2021,
+    "years_active": [
+      2021
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "TP53",
+    "first_seen": 2023,
+    "last_seen": 2023,
+    "years_active": [
+      2023
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "GBQ#",
+    "first_seen": 2023,
+    "last_seen": 2023,
+    "years_active": [
+      2023
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "VEGFA",
+    "first_seen": 2024,
+    "last_seen": 2024,
+    "years_active": [
+      2024
+    ],
+    "total_pubs": 1
+  },
+  {
+    "_id": "BRCA2",
+    "first_seen": 2023,
+    "last_seen": 2023,
+    "years_active": [
+      2023
+    ],
+    "total_pubs": 1
+  }
+]
