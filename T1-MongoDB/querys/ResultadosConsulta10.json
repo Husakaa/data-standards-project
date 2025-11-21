@@ -1,0 +1,289 @@
+[
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d75"
+    },
+    "symbol": "TP53",
+    "patient_id": "PAT_1426",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of blood cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d76"
+    },
+    "symbol": "TP53",
+    "patient_id": "PAT_5802",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d77"
+    },
+    "symbol": "TP53",
+    "patient_id": "PAT_0090",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d78"
+    },
+    "symbol": "TP53",
+    "patient_id": "PAT_1145",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Non-Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of minute cells",
+      "RNA-Seq analysis of agreement cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d79"
+    },
+    "symbol": "TP53",
+    "patient_id": "PAT_0113",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d7a"
+    },
+    "symbol": "TP53",
+    "patient_id": "PAT_8074",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Non-Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of site cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d7b"
+    },
+    "symbol": "BRCA1",
+    "patient_id": "PAT_5802",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d7c"
+    },
+    "symbol": "BRCA1",
+    "patient_id": "PAT_6285",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d7d"
+    },
+    "symbol": "BRCA1",
+    "patient_id": "PAT_7943",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of commercial cells",
+      "RNA-Seq analysis of minute cells",
+      "RNA-Seq analysis of million cells",
+      "RNA-Seq analysis of responsibility cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d7e"
+    },
+    "symbol": "BRCA1",
+    "patient_id": "PAT_2660",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of together cells",
+      "RNA-Seq analysis of happen cells",
+      "RNA-Seq analysis of since cells",
+      "RNA-Seq analysis of purpose cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d7f"
+    },
+    "symbol": "BRCA2",
+    "patient_id": "PAT_6285",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d80"
+    },
+    "symbol": "BRCA2",
+    "patient_id": "PAT_4960",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d81"
+    },
+    "symbol": "BRCA2",
+    "patient_id": "PAT_4600",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of night cells",
+      "RNA-Seq analysis of paper cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d82"
+    },
+    "symbol": "EGFR",
+    "patient_id": "PAT_2076",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of type cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d83"
+    },
+    "symbol": "EGFR",
+    "patient_id": "PAT_5537",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of site cells",
+      "RNA-Seq analysis of happen cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d84"
+    },
+    "symbol": "EGFR",
+    "patient_id": "PAT_8005",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of think cells",
+      "RNA-Seq analysis of agreement cells",
+      "RNA-Seq analysis of million cells",
+      "RNA-Seq analysis of music cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d85"
+    },
+    "symbol": "EGFR",
+    "patient_id": "PAT_0205",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Non-Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of different cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d86"
+    },
+    "symbol": "EGFR",
+    "patient_id": "PAT_4600",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of night cells",
+      "RNA-Seq analysis of paper cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d87"
+    },
+    "symbol": "VEGFA",
+    "patient_id": "PAT_6670",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of behind cells",
+      "RNA-Seq analysis of couple cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d88"
+    },
+    "symbol": "VEGFA",
+    "patient_id": "PAT_8248",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of purpose cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d89"
+    },
+    "symbol": "VEGFA",
+    "patient_id": "PAT_0205",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Non-Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of different cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d8a"
+    },
+    "symbol": "VEGFA",
+    "patient_id": "PAT_2660",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": [
+      "RNA-Seq analysis of together cells",
+      "RNA-Seq analysis of happen cells",
+      "RNA-Seq analysis of since cells",
+      "RNA-Seq analysis of purpose cells"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d8b"
+    },
+    "symbol": "VEGFA",
+    "patient_id": "PAT_4960",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  },
+  {
+    "_id": {
+      "$oid": "6920a75e798e52ba99768d8c"
+    },
+    "symbol": "VEGFA",
+    "patient_id": "PAT_0113",
+    "diagnosis": "Invasive Ductal Carcinoma",
+    "response": "Responder",
+    "experiment_titles": []
+  }
+]
