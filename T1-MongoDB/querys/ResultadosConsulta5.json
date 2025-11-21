@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9b3"
+    },
+    "name": "Desiree Smith",
+    "email": "annholland@example.com",
+    "total_publications": 6,
+    "total_impact_factor": 340.705
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9b1"
+    },
+    "name": "Thomas Golden MD",
+    "email": "erin87@example.net",
+    "total_publications": 4,
+    "total_impact_factor": 266.918
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9c8"
+    },
+    "name": "Cody Chavez",
+    "email": "hughesjames@example.com",
+    "total_publications": 4,
+    "total_impact_factor": 97.714
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9c3"
+    },
+    "name": "Jordan Horton",
+    "email": "roselaurie@example.com",
+    "total_publications": 4,
+    "total_impact_factor": 85.491
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9b0"
+    },
+    "name": "David Smith",
+    "email": "leebrian@example.org",
+    "total_publications": 3,
+    "total_impact_factor": 175.007
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9be"
+    },
+    "name": "Denise Clay",
+    "email": "amandasanchez@example.org",
+    "total_publications": 3,
+    "total_impact_factor": 140.155
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9b2"
+    },
+    "name": "Melinda Freeman",
+    "email": "taylorfrank@example.com",
+    "total_publications": 3,
+    "total_impact_factor": 129.971
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9bc"
+    },
+    "name": "Todd Bennett",
+    "email": "trichards@example.net",
+    "total_publications": 3,
+    "total_impact_factor": 129.971
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9cb"
+    },
+    "name": "Dana Jackson",
+    "email": "alexanderjohnson@example.org",
+    "total_publications": 3,
+    "total_impact_factor": 124.181
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832e9c0"
+    },
+    "name": "Austin Davis",
+    "email": "schultzterri@example.com",
+    "total_publications": 2,
+    "total_impact_factor": 133.21800000000002
+  }
+]
