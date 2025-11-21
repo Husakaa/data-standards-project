@@ -1,0 +1,36 @@
+[
+  {
+    "_id": {
+      "$oid": "6920a649798e52ba99768d74"
+    },
+    "start_gene": "BRCA2",
+    "network_size": 13,
+    "interacting_genes": [
+      "PTEN",
+      "AKT1",
+      "BRCA2",
+      "APOE",
+      "KRAS",
+      "MYC",
+      "VEGFA",
+      "TNF",
+      "BRCA1",
+      "GAPDH",
+      "ACTB",
+      "ESR1",
+      "IL6"
+    ],
+    "publications": [
+      "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+      "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+      "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression",
+      "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+      "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+      "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression",
+      "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression",
+      "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+      "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance",
+      "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance"
+    ]
+  }
+]
