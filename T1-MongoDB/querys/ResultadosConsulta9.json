@@ -1,0 +1,354 @@
+[
+  {
+    "_id": {
+      "gene_symbol": "BRCA2",
+      "response": "Responder"
+    },
+    "avg_tpm": 890.0099999999999,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "LFX#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 883.4900000000001,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "LFX#",
+      "response": "Responder"
+    },
+    "avg_tpm": 883.49,
+    "count": 5
+  },
+  {
+    "_id": {
+      "gene_symbol": "IL6",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 881.82,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "IL6",
+      "response": "Responder"
+    },
+    "avg_tpm": 881.82,
+    "count": 8
+  },
+  {
+    "_id": {
+      "gene_symbol": "FKI#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 838.5099999999999,
+    "count": 6
+  },
+  {
+    "_id": {
+      "gene_symbol": "ZLK#",
+      "response": "Responder"
+    },
+    "avg_tpm": 837.81,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "XUF#",
+      "response": "Responder"
+    },
+    "avg_tpm": 832.95,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "GBQ#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 816.06,
+    "count": 5
+  },
+  {
+    "_id": {
+      "gene_symbol": "LGS#",
+      "response": "Responder"
+    },
+    "avg_tpm": 720.52,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "OWG#",
+      "response": "Responder"
+    },
+    "avg_tpm": 631.84,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "OWG#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 631.84,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "TNP#",
+      "response": "Responder"
+    },
+    "avg_tpm": 609.17,
+    "count": 5
+  },
+  {
+    "_id": {
+      "gene_symbol": "TNP#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 609.17,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "QOY#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 609.17,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "QOY#",
+      "response": "Responder"
+    },
+    "avg_tpm": 609.17,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "NRL#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 589.73,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "ERE#",
+      "response": "Responder"
+    },
+    "avg_tpm": 589.37,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "DGG#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 562.63,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "DGG#",
+      "response": "Responder"
+    },
+    "avg_tpm": 562.63,
+    "count": 8
+  },
+  {
+    "_id": {
+      "gene_symbol": "QUR#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 553.94,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "HWQ#",
+      "response": "Responder"
+    },
+    "avg_tpm": 499.59,
+    "count": 5
+  },
+  {
+    "_id": {
+      "gene_symbol": "VEGFA",
+      "response": "Responder"
+    },
+    "avg_tpm": 456.88,
+    "count": 5
+  },
+  {
+    "_id": {
+      "gene_symbol": "ZHM#",
+      "response": "Responder"
+    },
+    "avg_tpm": 451.77,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "BRCA1",
+      "response": "Responder"
+    },
+    "avg_tpm": 447.87,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "SDX#",
+      "response": "Responder"
+    },
+    "avg_tpm": 410.69,
+    "count": 7
+  },
+  {
+    "_id": {
+      "gene_symbol": "SDX#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 410.69,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "UBV#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 401.05,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "MWS#",
+      "response": "Responder"
+    },
+    "avg_tpm": 369.42,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "MWS#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 369.42,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "TP53",
+      "response": "Responder"
+    },
+    "avg_tpm": 348.01,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "YGG#",
+      "response": "Responder"
+    },
+    "avg_tpm": 345.04,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "LJE#",
+      "response": "Responder"
+    },
+    "avg_tpm": 338.34,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "CYX#",
+      "response": "Responder"
+    },
+    "avg_tpm": 313.05,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "KJP#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 291.81,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "KJP#",
+      "response": "Responder"
+    },
+    "avg_tpm": 291.81,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "AFR#",
+      "response": "Responder"
+    },
+    "avg_tpm": 288.73,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "GAPDH",
+      "response": "Responder"
+    },
+    "avg_tpm": 206.62,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "UIE#",
+      "response": "Responder"
+    },
+    "avg_tpm": 201.97,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "APOE",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 189.26,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "EGFR",
+      "response": "Responder"
+    },
+    "avg_tpm": 157.01,
+    "count": 4
+  },
+  {
+    "_id": {
+      "gene_symbol": "NMT#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 72.59,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "VMN#",
+      "response": "Non-Responder"
+    },
+    "avg_tpm": 70.82,
+    "count": 3
+  },
+  {
+    "_id": {
+      "gene_symbol": "VMN#",
+      "response": "Responder"
+    },
+    "avg_tpm": 70.82,
+    "count": 4
+  }
+]
