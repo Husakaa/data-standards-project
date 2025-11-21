@@ -1,0 +1,302 @@
+[
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1b"
+    },
+    "title": "Integrative Analysis reveals key findings on the role of VMN# and TP53 in drug resistance",
+    "year": 2023,
+    "journal": "Cell",
+    "authors": [
+      "Linda Rice",
+      "David Smith",
+      "Desiree Smith",
+      "Jordan Horton"
+    ],
+    "genes": [
+      "VMN#",
+      "BRCA2",
+      "TP53"
+    ],
+    "citations": 1473
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea23"
+    },
+    "title": "Machine Learning reveals key findings on the role of WGE# and QUR# in drug resistance",
+    "year": 2021,
+    "journal": "Nucleic Acids Research",
+    "authors": [
+      "Kara Mcclure",
+      "Todd Bennett",
+      "Janice Mccormick",
+      "Ryan Mccormick"
+    ],
+    "genes": [
+      "QUR#",
+      "WGE#",
+      "VMN#"
+    ],
+    "citations": 1231
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea26"
+    },
+    "title": "Machine Learning reveals key findings on the role of ZLK# and TKL# in drug resistance",
+    "year": 2022,
+    "journal": "Bioinformatics",
+    "authors": [
+      "Gregory Roberts",
+      "Denise Clay",
+      "Jordan Horton",
+      "Cody Chavez"
+    ],
+    "genes": [
+      "MYC",
+      "TKL#",
+      "ZLK#"
+    ],
+    "citations": 1120
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea19"
+    },
+    "title": "Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression",
+    "year": 2023,
+    "journal": "PLOS Computational Biology",
+    "authors": [
+      "Jacob Chung",
+      "Jason Tanner",
+      "Jordan Horton",
+      "Cody Chavez"
+    ],
+    "genes": [
+      "GBQ#",
+      "NMT#",
+      "LGS#"
+    ],
+    "citations": 1112
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea24"
+    },
+    "title": "Integrative Analysis reveals key findings on the role of FQM# and YGG# in drug resistance",
+    "year": 2022,
+    "journal": "Nucleic Acids Research",
+    "authors": [
+      "Cody Chavez",
+      "Dana Jackson",
+      "Melinda Freeman",
+      "Eric Villanueva"
+    ],
+    "genes": [
+      "VMN#",
+      "YGG#",
+      "FQM#"
+    ],
+    "citations": 1110
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea22"
+    },
+    "title": "Machine Learning reveals key findings on the role of LJE# and ZHM# in cancer progression",
+    "year": 2024,
+    "journal": "Cell",
+    "authors": [
+      "David Smith",
+      "Gregory Roberts",
+      "Desiree Smith",
+      "Cody Chavez"
+    ],
+    "genes": [
+      "LJE#",
+      "VEGFA",
+      "ZHM#"
+    ],
+    "citations": 902
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1f"
+    },
+    "title": "Single-Cell Sequencing reveals key findings on the role of WGE# and ZLK# in drug resistance",
+    "year": 2024,
+    "journal": "Science",
+    "authors": [
+      "Thomas Golden MD",
+      "Kara Mcclure",
+      "Steven Olson",
+      "Denise Clay"
+    ],
+    "genes": [
+      "UBV#",
+      "WGE#",
+      "ZLK#"
+    ],
+    "citations": 889
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea20"
+    },
+    "title": "Single-Cell Sequencing reveals key findings on the role of ZLK# and MYC in cancer progression",
+    "year": 2021,
+    "journal": "Cell",
+    "authors": [
+      "Thomas Golden MD",
+      "Patrick Lawrence",
+      "Jason Tanner",
+      "Janice Mccormick"
+    ],
+    "genes": [
+      "MYC",
+      "LJE#",
+      "ZLK#"
+    ],
+    "citations": 794
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1d"
+    },
+    "title": "Integrative Analysis reveals key findings on the role of AKT1 and UIE# in cancer progression",
+    "year": 2021,
+    "journal": "Bioinformatics",
+    "authors": [
+      "Brian Farrell",
+      "Desiree Smith",
+      "Jordan Horton",
+      "Robert Guzman"
+    ],
+    "genes": [
+      "AKT1",
+      "UIE#",
+      "LGS#"
+    ],
+    "citations": 685
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1c"
+    },
+    "title": "Single-Cell Sequencing reveals key findings on the role of IL6 and UBV# in cancer progression",
+    "year": 2021,
+    "journal": "Science",
+    "authors": [
+      "Dana Jackson",
+      "Desiree Smith",
+      "Austin Davis",
+      "Jacob Chung"
+    ],
+    "genes": [
+      "KRAS",
+      "IL6",
+      "UBV#"
+    ],
+    "citations": 672
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1e"
+    },
+    "title": "Machine Learning reveals key findings on the role of VMN# and PTEN in cancer progression",
+    "year": 2023,
+    "journal": "Nature",
+    "authors": [
+      "Melinda Freeman",
+      "Thomas Golden MD",
+      "Todd Bennett",
+      "Austin Davis"
+    ],
+    "genes": [
+      "PTEN",
+      "BVD#",
+      "VMN#"
+    ],
+    "citations": 383
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea27"
+    },
+    "title": "Single-Cell Sequencing reveals key findings on the role of IL6 and GAPDH in drug resistance",
+    "year": 2024,
+    "journal": "Nature Genetics",
+    "authors": [
+      "Melinda Freeman",
+      "Anthony Reid",
+      "Patrick Lawrence",
+      "David Smith"
+    ],
+    "genes": [
+      "GAPDH",
+      "IL6",
+      "TKL#"
+    ],
+    "citations": 369
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea21"
+    },
+    "title": "Single-Cell Sequencing reveals key findings on the role of QOY# and APOE in cancer progression",
+    "year": 2021,
+    "journal": "Nature Genetics",
+    "authors": [
+      "Dana Jackson",
+      "Todd Bennett",
+      "Brian Farrell",
+      "Rebecca Jacobs"
+    ],
+    "genes": [
+      "OWG#",
+      "APOE",
+      "QOY#"
+    ],
+    "citations": 95
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea1a"
+    },
+    "title": "Machine Learning reveals key findings on the role of TKL# and FPU# in cancer progression",
+    "year": 2022,
+    "journal": "Cell",
+    "authors": [
+      "Edward Rios",
+      "Thomas Golden MD",
+      "Desiree Smith",
+      "Joe Ramirez"
+    ],
+    "genes": [
+      "TKL#",
+      "EGFR",
+      "FPU#"
+    ],
+    "citations": 83
+  },
+  {
+    "_id": {
+      "$oid": "691f60b2c55c72ba0832ea25"
+    },
+    "title": "Machine Learning reveals key findings on the role of GAPDH and QUR# in drug resistance",
+    "year": 2022,
+    "journal": "Nature",
+    "authors": [
+      "Leslie Hughes",
+      "Denise Clay",
+      "Desiree Smith",
+      "Stephen Smith"
+    ],
+    "genes": [
+      "GAPDH",
+      "DGG#",
+      "QUR#"
+    ],
+    "citations": 59
+  }
+]
