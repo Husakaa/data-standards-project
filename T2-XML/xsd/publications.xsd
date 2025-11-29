@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="publication">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="_id" type="xs:string"/>
+                <xs:element name="pmid" type="xs:string"/>
+                <xs:element name="doi" type="xs:string"/>
+                <xs:element name="title" type="xs:string"/>
+
+                <xs:element name="publication_details">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="journal" type="xs:string"/>
+                            <xs:element name="year" type="xs:int"/>
+                            <xs:element name="metrics">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="impact_factor" type="xs:double"/>
+                                        <xs:element name="citations" type="xs:int"/>
+                                        <xs:element name="altmetrics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="news_mentions" type="xs:int"/>
+                                                    <xs:element name="twitter_mentions" type="xs:int"/>
+                                                    <xs:element name="attention_score" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="content">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="abstract" type="xs:string"/>
+                            <xs:element name="keywords" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="keyword" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="datasets">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="repositories">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="repository" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="accessions" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="geo_series" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="sra_project" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="dbgap_study" type="xs:string" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="researcher_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="researcher_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="experiment_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="experiment_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="gene_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gene_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
