@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="gene">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="_id" type="xs:string"/>
+                <xs:element name="gene_id" type="xs:string"/>
+                <xs:element name="symbol" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+
+                <xs:element name="expression_data">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="avg_tpm" type="xs:double"/>
+                            <xs:element name="tissues">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tissue" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tissue_type" type="xs:string"/>
+                                                    <xs:element name="tpm" type="xs:double"/>
+                                                    <xs:element name="conditions">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="normal" type="xs:double"/>
+                                                                <xs:element name="tumor" type="xs:double"/>
+                                                                <xs:element name="statistics">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="fold_change" type="xs:double"/>
+                                                                            <xs:element name="p_value" type="xs:double"/>
+                                                                            <xs:element name="adjusted_p_value" type="xs:double"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="functional_annotation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="go_terms">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="term" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="pathways">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="pathway" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="interactions">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="protein_interactions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="protein" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="network_properties">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="degree" type="xs:int"/>
+                                                    <xs:element name="betweenness" type="xs:double"/>
+                                                    <xs:element name="clustering_coefficient" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="variants" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="variant" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="variant_id" type="xs:string"/>
+                                        <xs:element name="type">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="SNP"/>
+                                                    <xs:enumeration value="Indel"/>
+                                                    <xs:enumeration value="SV"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="consequences">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="impact">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="HIGH"/>
+                                                                <xs:enumeration value="MODERATE"/>
+                                                                <xs:enumeration value="LOW"/>
+                                                                <xs:enumeration value="MODIFIER"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="clinical_significance" type="xs:string"/>
+                                                    <xs:element name="predictions" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="sift" type="xs:string" minOccurs="0"/>
+                                                                <xs:element name="polyphen" type="xs:string" minOccurs="0"/>
+                                                                <xs:element name="cadd_score" type="xs:double" minOccurs="0"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="sample_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sample_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="publication_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="publication_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
