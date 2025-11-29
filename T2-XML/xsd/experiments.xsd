@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="experiment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="_id" type="xs:string"/>
+                <xs:element name="experiment_id" type="xs:string"/>
+                <xs:element name="title" type="xs:string"/>
+                <xs:element name="type" type="xs:string"/>
+                <xs:element name="date" type="xs:date"/>
+                <xs:element name="status">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="pending"/>
+                            <xs:enumeration value="in_progress"/>
+                            <xs:enumeration value="completed"/>
+                            <xs:enumeration value="failed"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="methodology" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="platform" type="xs:string" minOccurs="0"/>
+                            <xs:element name="library_prep" type="xs:string" minOccurs="0"/>
+                            <xs:element name="sequencing_params" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="read_length" type="xs:int" minOccurs="0"/>
+                                        <xs:element name="coverage" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="quality_control" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="q30_percentage" type="xs:double" minOccurs="0"/>
+                                                    <xs:element name="adapter_contamination" type="xs:double" minOccurs="0"/>
+                                                    <xs:element name="duplication_rate" type="xs:double" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="researcher_id" type="xs:string"/>
+                
+                <xs:element name="sample_ids">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sample_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="publication_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="publication_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
