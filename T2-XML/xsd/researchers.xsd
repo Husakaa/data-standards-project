@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="researcher">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="_id" type="xs:string"/>
+                <xs:element name="researcher_id" type="xs:string"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="email" type="xs:string"/>
+                
+                <xs:element name="affiliation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="institution" type="xs:string"/>
+                            <xs:element name="department" type="xs:string"/>
+                            <xs:element name="research_group">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="pi" type="xs:string"/>
+                                        <xs:element name="funding">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="grants" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="grant" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="agency" type="xs:string"/>
+                                                                            <xs:element name="project_id" type="xs:string"/>
+                                                                            <xs:element name="amount" type="xs:int"/>
+                                                                            <xs:element name="period" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="total_budget" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="expertise">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="areas" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="area" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="skills">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="computational" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="language" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="metrics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="h_index" type="xs:int"/>
+                                                    <xs:element name="total_citations" type="xs:int"/>
+                                                    <xs:element name="publications_count" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="experiment_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="experiment_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="publication_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="publication_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
