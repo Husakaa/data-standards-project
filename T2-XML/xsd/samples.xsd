@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="sample">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="_id" type="xs:string"/>
+                <xs:element name="sample_id" type="xs:string"/>
+                <xs:element name="source" type="xs:string"/>
+                <xs:element name="organism" type="xs:string"/>
+
+                <xs:element name="clinical_data">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="patient_id" type="xs:string"/>
+                            <xs:element name="diagnosis" type="xs:string"/>
+                            <xs:element name="stage" type="xs:string"/>
+                            <xs:element name="treatment">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="therapy_type" type="xs:string"/>
+                                        <xs:element name="drugs" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="drug" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="response">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="evaluation_date" type="xs:date"/>
+                                                    <xs:element name="status">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="complete response"/>
+                                                                <xs:enumeration value="partial response"/>
+                                                                <xs:enumeration value="stable disease"/>
+                                                                <xs:enumeration value="progressive disease"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="biomarkers" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="ki67" type="xs:int" minOccurs="0"/>
+                                                                <xs:element name="her2" type="xs:string" minOccurs="0"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="processing">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="collection_date" type="xs:date"/>
+                            <xs:element name="storage_conditions" type="xs:string"/>
+                            <xs:element name="rna_extraction">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="method" type="xs:string"/>
+                                        <xs:element name="rin_score" type="xs:double"/>
+                                        <xs:element name="concentration" type="xs:int"/>
+                                        <xs:element name="quality_metrics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="a260_280" type="xs:double"/>
+                                                    <xs:element name="a260_230" type="xs:double"/>
+                                                    <xs:element name="integrity_assessment" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="experiment_ids" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="experiment_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="genes_detected" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gene_id" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
