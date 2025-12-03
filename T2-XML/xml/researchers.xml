@@ -1,0 +1,1485 @@
+<?xml version="1.0" ?>
+<researchers>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b0</_id>
+        <researcher_id>RES_001</researcher_id>
+        <name>David Smith</name>
+        <email>leebrian@example.org</email>
+        <affiliation>
+            <institution>Smith Ltd Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Industry Lab</name>
+                <pi>Angela Gray</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-HY92</project_id>
+                            <amount>1685280</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1264774</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>18</h_index>
+                    <total_citations>13858</total_citations>
+                    <publications_count>3</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1b</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea22</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea27</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b1</_id>
+        <researcher_id>RES_002</researcher_id>
+        <name>Thomas Golden MD</name>
+        <email>erin87@example.net</email>
+        <affiliation>
+            <institution>Vincent Ltd Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Within Lab</name>
+                <pi>Heather Clayton MD</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-ev19</project_id>
+                            <amount>675398</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2101746</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>42</h_index>
+                    <total_citations>13093</total_citations>
+                    <publications_count>4</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea0b</experiment_id>
+            <experiment_id>691f60b2c55c72ba0832ea14</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1a</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1e</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1f</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea20</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b2</_id>
+        <researcher_id>RES_003</researcher_id>
+        <name>Melinda Freeman</name>
+        <email>taylorfrank@example.com</email>
+        <affiliation>
+            <institution>White LLC Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Free Lab</name>
+                <pi>Leah Collins</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-Xj84</project_id>
+                            <amount>778043</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>563167</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>32</h_index>
+                    <total_citations>2198</total_citations>
+                    <publications_count>3</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea01</experiment_id>
+            <experiment_id>691f60b2c55c72ba0832ea07</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1e</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea24</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea27</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b3</_id>
+        <researcher_id>RES_004</researcher_id>
+        <name>Desiree Smith</name>
+        <email>annholland@example.com</email>
+        <affiliation>
+            <institution>Chen, Clark and Wheeler Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Write Lab</name>
+                <pi>Michele Newman</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-Om13</project_id>
+                            <amount>1851818</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>679613</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>53</h_index>
+                    <total_citations>14583</total_citations>
+                    <publications_count>6</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea00</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1a</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1b</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1c</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1d</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea22</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea25</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b4</_id>
+        <researcher_id>RES_005</researcher_id>
+        <name>William Evans</name>
+        <email>william13@example.com</email>
+        <affiliation>
+            <institution>Perez Ltd Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Today Lab</name>
+                <pi>Jennifer Torres</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-hC12</project_id>
+                            <amount>1371546</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>577815</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>5</h_index>
+                    <total_citations>819</total_citations>
+                    <publications_count>0</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea02</experiment_id>
+        </experiment_ids>
+        <publication_ids/>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b5</_id>
+        <researcher_id>RES_006</researcher_id>
+        <name>Patrick Lawrence</name>
+        <email>mitchellann@example.net</email>
+        <affiliation>
+            <institution>Hanson, Vazquez and Mcmillan Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Camera Lab</name>
+                <pi>Cynthia Hughes</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-Bb01</project_id>
+                            <amount>567328</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>3990564</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>22</h_index>
+                    <total_citations>11506</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea20</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea27</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b6</_id>
+        <researcher_id>RES_007</researcher_id>
+        <name>Gregory Roberts</name>
+        <email>fsnyder@example.net</email>
+        <affiliation>
+            <institution>Johnson and Sons Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Voice Lab</name>
+                <pi>Tanya Chandler</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-ef22</project_id>
+                            <amount>1310541</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1869102</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>57</h_index>
+                    <total_citations>2798</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea22</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea26</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b7</_id>
+        <researcher_id>RES_008</researcher_id>
+        <name>Leslie Hughes</name>
+        <email>tstephens@example.com</email>
+        <affiliation>
+            <institution>Mckee Ltd Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Reveal Lab</name>
+                <pi>Kristina Haley</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-Oa40</project_id>
+                            <amount>643904</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>4306543</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>46</h_index>
+                    <total_citations>4285</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea17</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea25</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b8</_id>
+        <researcher_id>RES_009</researcher_id>
+        <name>Anthony Reid</name>
+        <email>maria57@example.net</email>
+        <affiliation>
+            <institution>Wright PLC Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Why Lab</name>
+                <pi>Desiree Barnes</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-qg88</project_id>
+                            <amount>1045355</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>3886404</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>55</h_index>
+                    <total_citations>10644</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea03</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea27</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9b9</_id>
+        <researcher_id>RES_010</researcher_id>
+        <name>Joe Ramirez</name>
+        <email>rjones@example.org</email>
+        <affiliation>
+            <institution>Buck, Garcia and Munoz Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Statement Lab</name>
+                <pi>Jared Buckley</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-Ak38</project_id>
+                            <amount>655612</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2240969</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>49</h_index>
+                    <total_citations>1278</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1a</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9ba</_id>
+        <researcher_id>RES_011</researcher_id>
+        <name>Kara Mcclure</name>
+        <email>marksroger@example.org</email>
+        <affiliation>
+            <institution>Thompson PLC Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Write Lab</name>
+                <pi>Meghan Chambers</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-eE86</project_id>
+                            <amount>1204826</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2341899</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>12</h_index>
+                    <total_citations>6732</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea10</experiment_id>
+            <experiment_id>691f60b2c55c72ba0832ea18</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1f</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea23</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9bb</_id>
+        <researcher_id>RES_012</researcher_id>
+        <name>Megan Paul</name>
+        <email>egomez@example.net</email>
+        <affiliation>
+            <institution>Duncan, Willis and Davis Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Myself Lab</name>
+                <pi>Kenneth Perez</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-HS56</project_id>
+                            <amount>971786</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1592672</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>34</h_index>
+                    <total_citations>8150</total_citations>
+                    <publications_count>0</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea0a</experiment_id>
+        </experiment_ids>
+        <publication_ids/>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9bc</_id>
+        <researcher_id>RES_013</researcher_id>
+        <name>Todd Bennett</name>
+        <email>trichards@example.net</email>
+        <affiliation>
+            <institution>Evans, Perry and Parks Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Lay Lab</name>
+                <pi>Bradley Lin</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-Yt81</project_id>
+                            <amount>1188910</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>4823683</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>11</h_index>
+                    <total_citations>11143</total_citations>
+                    <publications_count>3</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea0d</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1e</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea21</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea23</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9bd</_id>
+        <researcher_id>RES_014</researcher_id>
+        <name>Jason Tanner</name>
+        <email>whitechelsea@example.com</email>
+        <affiliation>
+            <institution>Bright, Williams and Alvarez Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Challenge Lab</name>
+                <pi>David Gregory</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-Tc34</project_id>
+                            <amount>1208539</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1598499</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>56</h_index>
+                    <total_citations>10017</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea08</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea19</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea20</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9be</_id>
+        <researcher_id>RES_015</researcher_id>
+        <name>Denise Clay</name>
+        <email>amandasanchez@example.org</email>
+        <affiliation>
+            <institution>Jackson Ltd Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Life Lab</name>
+                <pi>Erin Jones</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-UB29</project_id>
+                            <amount>713152</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2103716</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>57</h_index>
+                    <total_citations>11211</total_citations>
+                    <publications_count>3</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea06</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1f</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea25</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea26</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9bf</_id>
+        <researcher_id>RES_016</researcher_id>
+        <name>Steven Olson</name>
+        <email>joshua39@example.org</email>
+        <affiliation>
+            <institution>Richards-Martinez Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Such Lab</name>
+                <pi>Eric Day</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-bW97</project_id>
+                            <amount>228897</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>4739305</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>56</h_index>
+                    <total_citations>3040</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1f</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c0</_id>
+        <researcher_id>RES_017</researcher_id>
+        <name>Austin Davis</name>
+        <email>schultzterri@example.com</email>
+        <affiliation>
+            <institution>Joseph, Gibson and Harper Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Whole Lab</name>
+                <pi>Ashley Campbell</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-So77</project_id>
+                            <amount>1644473</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2387029</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>40</h_index>
+                    <total_citations>1847</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea11</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1c</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1e</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c1</_id>
+        <researcher_id>RES_018</researcher_id>
+        <name>Robert Guzman</name>
+        <email>jeffery18@example.org</email>
+        <affiliation>
+            <institution>Avila PLC Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Standard Lab</name>
+                <pi>Lucas Sanders</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-iC14</project_id>
+                            <amount>1226356</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1604980</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>23</h_index>
+                    <total_citations>14960</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1d</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c2</_id>
+        <researcher_id>RES_019</researcher_id>
+        <name>Brian Farrell</name>
+        <email>watkinsjessica@example.com</email>
+        <affiliation>
+            <institution>Carson-Holmes Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational About Lab</name>
+                <pi>Mary Proctor</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-ZO67</project_id>
+                            <amount>973013</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2943355</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>6</h_index>
+                    <total_citations>8061</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1d</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea21</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c3</_id>
+        <researcher_id>RES_020</researcher_id>
+        <name>Jordan Horton</name>
+        <email>roselaurie@example.com</email>
+        <affiliation>
+            <institution>Torres-Byrd Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Bag Lab</name>
+                <pi>Robert Kennedy</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-wp06</project_id>
+                            <amount>1753486</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>835268</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>24</h_index>
+                    <total_citations>6619</total_citations>
+                    <publications_count>4</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea19</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1b</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1d</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea26</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c4</_id>
+        <researcher_id>RES_021</researcher_id>
+        <name>Janice Mccormick</name>
+        <email>sullivannathan@example.org</email>
+        <affiliation>
+            <institution>Rodriguez, Martinez and Brown Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Blood Lab</name>
+                <pi>Ryan Fitzgerald</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-Pi95</project_id>
+                            <amount>1792445</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2979181</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>54</h_index>
+                    <total_citations>1697</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea20</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea23</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c5</_id>
+        <researcher_id>RES_022</researcher_id>
+        <name>Eric Villanueva</name>
+        <email>sclark@example.org</email>
+        <affiliation>
+            <institution>Petty, Reynolds and Grant Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Avoid Lab</name>
+                <pi>Daniel Jones</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-Jn00</project_id>
+                            <amount>465374</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>2542305</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>57</h_index>
+                    <total_citations>2581</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea13</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea24</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c6</_id>
+        <researcher_id>RES_023</researcher_id>
+        <name>Stephen Smith</name>
+        <email>ctapia@example.com</email>
+        <affiliation>
+            <institution>Mahoney-Love Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Still Lab</name>
+                <pi>Christopher Jones</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-oy02</project_id>
+                            <amount>743287</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1911818</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>53</h_index>
+                    <total_citations>5904</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea25</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c7</_id>
+        <researcher_id>RES_024</researcher_id>
+        <name>Rebecca Jacobs</name>
+        <email>mendezkimberly@example.org</email>
+        <affiliation>
+            <institution>Galvan, Fry and Wagner Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Live Lab</name>
+                <pi>Linda Nelson</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-CF66</project_id>
+                            <amount>340220</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>3107098</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>34</h_index>
+                    <total_citations>14159</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea0e</experiment_id>
+            <experiment_id>691f60b2c55c72ba0832ea16</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea21</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c8</_id>
+        <researcher_id>RES_025</researcher_id>
+        <name>Cody Chavez</name>
+        <email>hughesjames@example.com</email>
+        <affiliation>
+            <institution>Mitchell, Holland and Ochoa Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational No Lab</name>
+                <pi>Thomas Cook</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-XD66</project_id>
+                            <amount>642062</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>501788</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>53</h_index>
+                    <total_citations>6463</total_citations>
+                    <publications_count>4</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea04</experiment_id>
+            <experiment_id>691f60b2c55c72ba0832ea09</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea19</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea22</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea24</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea26</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9c9</_id>
+        <researcher_id>RES_026</researcher_id>
+        <name>Jacob Chung</name>
+        <email>dereksingh@example.com</email>
+        <affiliation>
+            <institution>Hudson, Lucas and Bullock Institute</institution>
+            <department>Genomics</department>
+            <research_group>
+                <name>Computational Everything Lab</name>
+                <pi>Sara Flowers</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>ERC</agency>
+                            <project_id>PRJ-PW16</project_id>
+                            <amount>273168</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>4392136</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>22</h_index>
+                    <total_citations>14760</total_citations>
+                    <publications_count>2</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea15</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea19</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea1c</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9ca</_id>
+        <researcher_id>RES_027</researcher_id>
+        <name>Ryan Mccormick</name>
+        <email>robert90@example.net</email>
+        <affiliation>
+            <institution>Hebert, Anderson and Gonzalez Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Others Lab</name>
+                <pi>Joshua Madden</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-lt99</project_id>
+                            <amount>1030105</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1767467</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>47</h_index>
+                    <total_citations>13282</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea0c</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea23</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9cb</_id>
+        <researcher_id>RES_028</researcher_id>
+        <name>Dana Jackson</name>
+        <email>alexanderjohnson@example.org</email>
+        <affiliation>
+            <institution>Sanchez Inc Institute</institution>
+            <department>Oncology</department>
+            <research_group>
+                <name>Computational Despite Lab</name>
+                <pi>Christina Foster</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>NIH</agency>
+                            <project_id>PRJ-DH09</project_id>
+                            <amount>189029</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>3816876</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>20</h_index>
+                    <total_citations>10796</total_citations>
+                    <publications_count>3</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea05</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1c</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea21</publication_id>
+            <publication_id>691f60b2c55c72ba0832ea24</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9cc</_id>
+        <researcher_id>RES_029</researcher_id>
+        <name>Linda Rice</name>
+        <email>derrickvega@example.org</email>
+        <affiliation>
+            <institution>Townsend LLC Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Particular Lab</name>
+                <pi>Cynthia Benton</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-eH37</project_id>
+                            <amount>1974661</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>1026147</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>23</h_index>
+                    <total_citations>9245</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids>
+            <experiment_id>691f60b2c55c72ba0832ea0f</experiment_id>
+            <experiment_id>691f60b2c55c72ba0832ea12</experiment_id>
+        </experiment_ids>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1b</publication_id>
+        </publication_ids>
+    </researcher>
+    <researcher>
+        <_id>691f60b2c55c72ba0832e9cd</_id>
+        <researcher_id>RES_030</researcher_id>
+        <name>Edward Rios</name>
+        <email>salazaralan@example.org</email>
+        <affiliation>
+            <institution>Phillips-Mack Institute</institution>
+            <department>Bioinformatics</department>
+            <research_group>
+                <name>Computational Tonight Lab</name>
+                <pi>Anthony Ramirez</pi>
+                <funding>
+                    <grants>
+                        <grant>
+                            <agency>Horizon 2020</agency>
+                            <project_id>PRJ-ll56</project_id>
+                            <amount>262324</amount>
+                            <period>2022-2027</period>
+                        </grant>
+                    </grants>
+                    <total_budget>3609747</total_budget>
+                </funding>
+            </research_group>
+        </affiliation>
+        <expertise>
+            <areas>
+                <area>Cancer Genomics</area>
+                <area>Transcriptomics</area>
+            </areas>
+            <skills>
+                <computational>
+                    <language>Python</language>
+                    <language>R</language>
+                    <language>Docker</language>
+                </computational>
+                <metrics>
+                    <h_index>48</h_index>
+                    <total_citations>11300</total_citations>
+                    <publications_count>1</publications_count>
+                </metrics>
+            </skills>
+        </expertise>
+        <experiment_ids/>
+        <publication_ids>
+            <publication_id>691f60b2c55c72ba0832ea1a</publication_id>
+        </publication_ids>
+    </researcher>
+</researchers>
