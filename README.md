@@ -167,7 +167,7 @@ Para dudas o sugerencias sobre el proyecto, contactar a través del repositorio 
 
 -------------------------------------------------------------------------------------------------------
 
-# T2-MongoDB - Transformación de Datos Bioinformáticos a Estándares Abiertos
+# T2-XML - Transformación de Datos Bioinformáticos a Estándares Abiertos
 
 ## Descripción del Proyecto
 
@@ -272,6 +272,22 @@ python src/json_to_xml.py \
     --xslt_template xslt/template1.xslt \
     --output_file html/result1.html
 ```
+
+## 👥 Equipo de Desarrollo
+
+- **Aissa Omar El Hammouti Chachoui**
+- **Hugo Salas Calderón**
+- **Patricia Rodríguez Lidueña**
+- ** Luis Miguel Parrado Navarro**
+- **Neja KaŠman**
+
+## Licencia
+
+Este proyecto es material académico de la Universidad de Málaga.
+
+## Contacto
+
+Para dudas o sugerencias sobre el proyecto, contactar a través del repositorio de GitHub.
 ---
 
 **Universidad de Málaga** - Ingeniería de la Salud  
