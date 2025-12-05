@@ -165,8 +165,117 @@ Este proyecto es material académico de la Universidad de Málaga.
 
 Para dudas o sugerencias sobre el proyecto, contactar a través del repositorio de GitHub.
 
+-------------------------------------------------------------------------------------------------------
+
+# T2-MongoDB - Transformación de Datos Bioinformáticos a Estándares Abiertos
+
+## Descripción del Proyecto
+
+Este proyecto completa la transición del modelo de base de datos MongoDB (JSON) diseñado en **T1-MongoDB** a un conjunto de estándares abiertos y validados (XML, XSD, XSLT).
+
+El objetivo principal es garantizar la interoperabilidad y claridad estructural de los datos bioinformáticos mediante un flujo de trabajo automatizado en Python que transforma la información para su visualización en HTML.
+
+Este proyecto forma parte de la asignatura de Estándares de Datos en Bioinformática y Salud.
+
+## Estructura del Proyecto
+
+```
+T2-XML/
+├── docs/              # Documentación del proyecto (explicación en PDF)
+├── xsd/               # Esquemas XSD de validación
+├── xml/               # Documentos XML generados
+├── xslt/              # Plantillas XSLT para transformar de XML a HTML
+├── html/              # Documentos HTML resultantes
+└── src/               # Script de población
+```
+
+---
+
+## Arquitectura del Sistema
+
+El flujo de trabajo implementado reproduce y valida la estructura diseñada en la T1:
+
+1. **Diseño de Esquemas XSD**  
+   Se definen los tipos de datos, la jerarquía de elementos y las relaciones entre entidades bioinformáticas.  
+   Cada XSD describe la estructura esperada del XML equivalente a las colecciones MongoDB.
+
+2. **Generación de XML**  
+   A partir del modelo JSON de T1, se generan documentos XML que mantienen la estructura con **cuatro niveles de anidamiento**.
+
+3. **Script Python de Transformación**  
+   El script `json_to_xml.py` permite:
+   - Conectarse a MongoDB mediante credenciales
+   - Leer consultas desde un archivo `.txt`
+   - Ejecutarlas usando PyMongo
+   - Transformar el resultado JSON a XML válido
+   - Validarlo frente a su XSD
+   - Aplicar una plantilla XSLT
+   - Producir un documento HTML
+
+4. **Transformación XSLT a HTML**  
+   Las plantillas permiten visualizar la información en HTML de forma clara, ordenada y legible.
+
+---
+
+## Componentes Técnicos
+
+### Esquemas XSD
+
+Definen:
+
+- Tipos de cada elemento  
+- Jerarquía estructural  
+- Relaciones entre datos  
+- Campos obligatorios y opcionales  
+
+### Documentos XML
+
+Reproducen la estructura de las colecciones de T1:
+
+- experiments  
+- samples  
+- genes  
+- researchers  
+- publications  
+
+### Plantillas XSLT
+
+Permiten transformar los XML en páginas HTML mediante reglas de estilo y selección de contenido.
+
+### Script Python (`json_to_xml.py`)
+
+Incluye:
+
+- Uso de `argparse`  
+- Gestión de errores  
+- Conversión JSON a XML  
+- Validación XSD  
+- Transformación XSLT  
+- Generación de HTML final  
+
+---
+
+## Instalación y Uso
+
+### Prerrequisitos
+
+- Python 3.8+  
+- Librerías: `lxml`, `pymongo`  
+- Acceso a la base de datos MongoDB creada en T1  
+
+### Ejecución del Script
+
+```bash
+python src/json_to_xml.py \
+    --db_uri <URI_MONGODB> \
+    --query_spec queries/query1.txt \
+    --xslt_template xslt/template1.xslt \
+    --output_file html/result1.html
+```
 ---
 
 **Universidad de Málaga** - Ingeniería de la Salud  
 **Asignatura**: Estándares de Datos en Bioinformática y Salud  
 **Curso**: 2024/2025
+
+
