@@ -288,7 +288,8 @@ Este proyecto es material académico de la Universidad de Málaga.
 ## Contacto
 
 Para dudas o sugerencias sobre el proyecto, contactar a través del repositorio de GitHub.
----
+
+***
 
 **Universidad de Málaga** - Ingeniería de la Salud  
 **Asignatura**: Estándares de Datos en Bioinformática y Salud  
