@@ -1,0 +1,72 @@
+# ARCHIVO DE CONSULTAS SPARQL - ENTREGA 3
+# Prefijo base definido en la ontología
+PREFIX : <http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# ---------------------------------------------------------
+# CONSULTA 1: Listado de genes y sus niveles de expresión
+# Objetivo: Obtener datos literales básicos de la clase Gene.
+# ---------------------------------------------------------
+SELECT ?gene ?symbol ?tpm
+WHERE {
+  ?gene rdf:type :Gene .
+  ?gene :symbol ?symbol .
+  ?gene :avg_tpm ?tpm .
+}
+
+# ---------------------------------------------------------
+# CONSULTA 2: Investigadores con alto impacto científico
+# Objetivo: Filtrar individuos de la clase Researcher por un valor numérico (h-index > 20).
+# ---------------------------------------------------------
+SELECT ?name ?hIndex
+WHERE {
+  ?res rdf:type :Researcher .
+  ?res :name ?name .
+  ?res :h_index ?hIndex .
+  FILTER (?hIndex > 20)
+}
+
+# ---------------------------------------------------------
+# CONSULTA 3: Muestras clínicas de carcinoma ductal invasivo
+# Objetivo: Filtrar la clase Sample por un diagnóstico específico y obtener su calidad de ARN (RIN).
+# ---------------------------------------------------------
+SELECT ?sampleID ?rin
+WHERE {
+  ?sample rdf:type :Sample .
+  ?sample :diagnosis "Invasive Ductal Carcinoma" .
+  ?sample :rin_score ?rin .
+}
+
+# ---------------------------------------------------------
+# CONSULTA 4: Relación entre genes y muestras biológicas
+# Objetivo: Consultar una Object Property (detectedInSample) que conecta dos clases distintas.
+# ---------------------------------------------------------
+SELECT ?geneSymbol ?sampleID
+WHERE {
+  ?gene :detectedInSample ?sample .
+  ?gene :symbol ?geneSymbol .
+  ?sample :sample_id ?sampleID .
+}
+
+# ---------------------------------------------------------
+# CONSULTA 5: Publicaciones científicas y métricas de revista
+# Objetivo: Obtener información sobre publicaciones, sus títulos y factores de impacto.
+# ---------------------------------------------------------
+SELECT ?title ?journal ?impactFactor
+WHERE {
+  ?pub rdf:type :Publication .
+  ?pub :title ?title .
+  ?pub :journal ?journal .
+  ?pub :impact_factor ?impactFactor .
+}
+
+# ---------------------------------------------------------
+# CONSULTA 6: Investigadores involucrados en experimentos de RNA-Seq
+# Objetivo: Realizar un join complejo entre Researcher y Experiment mediante participaEnExperimento.
+# ---------------------------------------------------------
+SELECT DISTINCT ?name
+WHERE {
+  ?res :participatesInExperiment ?exp .
+  ?res :name ?name .
+  ?exp :type "RNA-Seq" .
+}
