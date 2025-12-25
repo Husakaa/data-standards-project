@@ -1,0 +1,1302 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17/"
+     xml:base="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#authoredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#authoredBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#describesExperiment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#describesExperiment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#detectedInSample -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#detectedInSample">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAffiliation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAffiliation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAltmetrics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAltmetrics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasBiomarkers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasBiomarkers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasClinicalData -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasClinicalData">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasCondition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasContent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasContent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasDatasets -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasDatasets">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExperiment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExperiment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpertise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpertise">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpressionData -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpressionData">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunctionalAnnotation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunctionalAnnotation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunding -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunding">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasGene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasGene">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasInteraction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasInteraction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMethodology -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMethodology">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMetrics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMetrics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasNetworkProperties -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasNetworkProperties">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasProcessing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasProcessing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublication">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublicationDetails -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublicationDetails">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityControl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityControl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityMetrics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityMetrics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasRNAExtraction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasRNAExtraction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearchGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearchGroup">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearcher -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearcher">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResponse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResponse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSample -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSample">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSequencingParameters -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSequencingParameters">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSkills -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSkills">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasStatistics -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasStatistics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTissueExpression -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTissueExpression">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTreatment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTreatment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportedInPublication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportedInPublication">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportsGene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportsGene">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#usedInExperiment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#usedInExperiment">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_230 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_230">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_280 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_280">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#abstract -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#abstract">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adapter_contamination -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adapter_contamination">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adjusted_p_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adjusted_p_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#agency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#agency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#amount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#amount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#areas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#areas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#attention_score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#attention_score">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#avg_tpm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#avg_tpm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#betweenness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#betweenness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#citations -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#citations">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#clustering_coefficient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#clustering_coefficient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#collection_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#collection_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#computational -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#computational">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#concentration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#concentration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#coverage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#coverage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#degree -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#degree">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#department -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#department">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#diagnosis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#diagnosis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#doi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#doi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#drugs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#drugs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#duplication_rate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#duplication_rate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#email">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#evaluation_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#evaluation_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#experimentId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#experimentId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#fold_change -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#fold_change">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#gene_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#gene_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#geo_series -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#geo_series">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#go_terms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#go_terms">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#h_index -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#h_index">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#her2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#her2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#impact_factor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#impact_factor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#institution -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#institution">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#integrity_assessment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#integrity_assessment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#journal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#journal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#keywords -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#keywords">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ki67 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ki67">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#library_prep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#library_prep">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#method -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#method">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#name">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#news_mentions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#news_mentions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#normal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#normal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#organism -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#organism">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#p_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#p_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pathways -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pathways">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#patient_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#patient_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#period">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#platform -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#platform">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pmid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pmid">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#project_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#project_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#protein_interactions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#protein_interactions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#publications_count -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#publications_count">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#q30_percentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#q30_percentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#read_length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#read_length">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#repositories -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#repositories">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#researcher_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#researcher_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#rin_score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#rin_score">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#sample_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#sample_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#source -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#source">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#stage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#stage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#status">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#storage_conditions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#storage_conditions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#symbol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#symbol">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#therapy_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#therapy_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tissue_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tissue_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#title">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_budget -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_budget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_citations -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_citations">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tpm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tpm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tumor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tumor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#twitter_mentions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#twitter_mentions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#year">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+    
+
+
+    <!-- http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
