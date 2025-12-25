@@ -1,0 +1,1625 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aissa/ontologies/2025/11/ontology_reasoned.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aissa/ontologies/2025/11/ontology_reasoned.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#areas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasGene"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#rin_score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#experimentId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#normal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#email"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportedInPublication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#coverage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#abstract"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#drugs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExperiment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#clustering_coefficient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSkills"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasRNAExtraction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_citations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityControl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#concentration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#avg_tpm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportsGene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearchGroup"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_230"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adjusted_p_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#doi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasClinicalData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasProcessing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#betweenness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityMetrics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#platform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#attention_score"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#q30_percentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#twitter_mentions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#duplication_rate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSample"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#impact_factor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSequencingParameters"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTissueExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasBiomarkers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#organism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#library_prep"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearcher"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adapter_contamination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublicationDetails"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#David_Smith"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#degree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#therapy_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#collection_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunctionalAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#usedInExperiment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#read_length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#symbol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#geo_series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMethodology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#sample_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_budget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#stage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#detectedInSample"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#project_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#repositories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#researcher_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#institution"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ki67"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#authoredBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#computational"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_280"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#h_index"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#keywords"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#amount"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#describesExperiment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMetrics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#p_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#integrity_assessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasStatistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tumor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#go_terms"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#agency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pmid"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasContent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasDatasets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tpm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#her2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tissue_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAffiliation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasNetworkProperties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#BRCA1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#department"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#title"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpressionData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#evaluation_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#journal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#period"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResponse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAltmetrics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#fold_change"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pathways"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpertise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#publications_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#method"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#protein_interactions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasInteraction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#news_mentions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#citations"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#storage_conditions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#gene_id"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#patient_id"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#BRCA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#BRCA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#David_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#David_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#detectedInSample"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#BRCA1"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#David_Smith"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublicationDetails"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#authoredBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#authoredBy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#David_Smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasClinicalData"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAffiliation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasGene"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#BRCA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#detectedInSample"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportedInPublication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#avg_tpm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#BRCA1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">447.87</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#symbol"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#BRCA1"/>
+        <Literal>BRCA1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#h_index"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#David_Smith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#David_Smith"/>
+        <Literal>David Smith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#h_index"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Desiree_Smith"/>
+        <Literal>Desiree Smith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#experimentId"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+        <Literal>EXP_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#status"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+        <Literal>Completed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#type"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#EXP_001"/>
+        <Literal>RNA-Seq</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#impact_factor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.767</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#title"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PUB_ea19"/>
+        <Literal>Machine Learning reveals key findings on the role of LGS# and GBQ# in cancer progression</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#diagnosis"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+        <Literal>Invasive Ductal Carcinoma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#rin_score"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#sample_id"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SMP_001"/>
+        <Literal>SMP_001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#avg_tpm"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">348.01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#gene_id"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+        <Literal>ENSG00000141510</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#symbol"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TP53"/>
+        <Literal>TP53</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#authoredBy"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#describesExperiment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#detectedInSample"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAffiliation"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAltmetrics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasBiomarkers"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasClinicalData"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasCondition"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasContent"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasDatasets"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExperiment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpertise"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpressionData"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunctionalAnnotation"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunding"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasGene"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasInteraction"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMethodology"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMetrics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasNetworkProperties"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasProcessing"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublication"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublicationDetails"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityControl"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityMetrics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasRNAExtraction"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearchGroup"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearcher"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResponse"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSample"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSequencingParameters"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSkills"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasStatistics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTissueExpression"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTreatment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportedInPublication"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportsGene"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#usedInExperiment"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#authoredBy"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#describesExperiment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#detectedInSample"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAffiliation"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasAltmetrics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasBiomarkers"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasClinicalData"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasCondition"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasContent"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasDatasets"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExperiment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpertise"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasExpressionData"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunctionalAnnotation"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasFunding"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasGene"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasInteraction"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMethodology"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasMetrics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasNetworkProperties"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasProcessing"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublication"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasPublicationDetails"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityControl"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasQualityMetrics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasRNAExtraction"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearchGroup"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResearcher"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasResponse"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSample"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSequencingParameters"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasSkills"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasStatistics"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTissueExpression"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#hasTreatment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportedInPublication"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#reportsGene"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#usedInExperiment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_230"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_280"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#abstract"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adapter_contamination"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adjusted_p_value"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#agency"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#amount"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#areas"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Expertise"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#attention_score"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#avg_tpm"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#betweenness"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#citations"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#clustering_coefficient"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#collection_date"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#computational"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#concentration"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#coverage"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#date"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#degree"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#NetworkProperties"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#department"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#diagnosis"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#doi"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#drugs"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#duplication_rate"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#email"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#evaluation_date"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#experimentId"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#fold_change"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#gene_id"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#geo_series"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#go_terms"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#h_index"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#her2"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#impact_factor"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Metrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#institution"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Affiliation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#integrity_assessment"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityMetrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#journal"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#keywords"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Content"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ki67"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Biomarkers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#library_prep"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#method"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#name"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#news_mentions"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#normal"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#organism"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#p_value"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Statistics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pathways"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#FunctionalAnnotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#patient_id"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#period"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pi"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ResearchGroup"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#platform"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Methodology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pmid"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#project_id"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#protein_interactions"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Interaction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#publications_count"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#q30_percentage"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#QualityControl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#read_length"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#SequencingParameters"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#repositories"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Datasets"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#researcher_id"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Researcher"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#rin_score"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#RNAExtraction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#sample_id"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#source"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Sample"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#stage"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ClinicalData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#status"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Response"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#storage_conditions"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Processing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#symbol"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Gene"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#therapy_type"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Treatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tissue_type"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#title"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+            <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Publication"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_budget"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Funding"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_citations"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Skills"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tpm"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#TissueExpression"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tumor"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ExpressionCondition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#twitter_mentions"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Altmetrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#type"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#Experiment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#year"/>
+        <Class IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#PublicationDetails"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_230"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#a260_280"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#abstract"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adapter_contamination"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#adjusted_p_value"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#agency"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#amount"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#areas"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#attention_score"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#avg_tpm"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#betweenness"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#citations"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#clustering_coefficient"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#collection_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#computational"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#concentration"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#coverage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#degree"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#department"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#diagnosis"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#doi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#drugs"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#duplication_rate"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#evaluation_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#experimentId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#fold_change"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#gene_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#geo_series"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#go_terms"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#h_index"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#her2"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#impact_factor"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#institution"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#integrity_assessment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#journal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#keywords"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#ki67"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#library_prep"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#method"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#news_mentions"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#normal"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#organism"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#p_value"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pathways"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#patient_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#period"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#platform"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#pmid"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#project_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#protein_interactions"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#publications_count"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#q30_percentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#read_length"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#repositories"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#researcher_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#rin_score"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#sample_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#source"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#stage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#storage_conditions"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#symbol"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#therapy_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tissue_type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_budget"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#total_citations"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tpm"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#tumor"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#twitter_mentions"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/disjsi/ontologies/2025/11/untitled-ontology-17#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
